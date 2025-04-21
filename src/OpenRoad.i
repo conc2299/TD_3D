@@ -185,7 +185,14 @@ getSteinerTreeBuilder()
   return openroad->getSteinerTreeBuilder();
 }
 
-} // namespace ord
+gpl3d::Placer3d*
+getPlacer3d()
+{
+  OpenRoad *openroad = getOpenRoad();
+  return openroad->getPlacer3d();
+}
+
+} //namespace ord
 
 namespace sta {
 std::vector<LibertyCell*> *

@@ -45,6 +45,7 @@ class Progress;
   X(FIN)                \
   X(FLW)                \
   X(GPL)                \
+  X(GPL3D)              \
   X(GRT)                \
   X(GUI)                \
   X(IFP)                \

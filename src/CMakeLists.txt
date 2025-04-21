@@ -269,6 +269,7 @@ add_subdirectory(pdn)
 add_subdirectory(dft)
 add_subdirectory(mpl)
 add_subdirectory(par)
+add_subdirectory(gpl3d)
 
 ################################################################
 
@@ -305,6 +306,7 @@ target_link_libraries(openroad
   pad
   ord
   gpl
+  gpl3d
   dpl
   fin
   rsz

@@ -110,6 +110,10 @@ namespace dft {
 class Dft;
 }
 
+namespace gpl3d{
+class Placer3d;
+}
+
 namespace ord {
 
 using std::string;
@@ -156,6 +160,7 @@ class OpenRoad
   dst::Distributed* getDistributed() { return distributer_; }
   stt::SteinerTreeBuilder* getSteinerTreeBuilder() { return stt_builder_; }
   dft::Dft* getDft() { return dft_; }
+  gpl3d::Placer3d* getPlacer3d() { return placer3d_; }
 
   // Return the bounding box of the db rows.
   odb::Rect getCore();
@@ -246,6 +251,7 @@ class OpenRoad
   dst::Distributed* distributer_ = nullptr;
   stt::SteinerTreeBuilder* stt_builder_ = nullptr;
   dft::Dft* dft_ = nullptr;
+  gpl3d::Placer3d* placer3d_ = nullptr;
 
   int threads_ = 1;
 
