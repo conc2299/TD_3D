@@ -8,12 +8,15 @@ add_library(gpl3d_lib
     src/placer3d.cpp
 )
 
+find_package(Boost 1.80 REQUIRED)
+
 target_link_libraries(gpl3d_lib
     PUBLIC
         odb
         OpenSTA
         utl_lib
         dbSta_lib
+        Boost::boost
 )
 
 target_include_directories(gpl3d_lib
