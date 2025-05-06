@@ -1,0 +1,263 @@
+OpenROAD 54b6dce7af49c5d1905eb29212b914dcc5b5759b 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[WARNING ODB-0176] error: undefined layer (via1) referenced
+[INFO ODB-0227] LEF file: /home/testcase/iccad2015.ot/superblue1/superblue1.lef, created 6 layers, 259 library cells
+[INFO ODB-0127] Reading DEF file: /home/testcase/iccad2015.ot/simple/simple_QQ.def
+[INFO ODB-0128] Design: simple
+[INFO ODB-0130]     Created 4 pins.
+[INFO ODB-0131]     Created 6 components and 15 component-terminals.
+[INFO ODB-0134] Finished DEF file: /home/testcase/iccad2015.ot/simple/simple_QQ.def
+Start placer3d
+[DEBUG GPL3D-run] solution file path /home/TritonPart/TD_3D/src/gpl3d/test/simple_placer3d_solution.txt
+Starting TritonPart partitioning...
+
+[INFO PAR-0004] Partitioning netlist.
+Netlist Partitioning Parameters
+	Number of partitions = 2
+	UBfactor = 1
+	Seed = 42
+	Vertex dimensions = 1
+	Hyperedge dimensions = 1
+	Placement dimensions = 0
+	Timing aware flag = true
+	Guardband flag = true
+	Global net threshold = 1000
+	Top 1000 critical timing paths are extracted.
+	Fence aware flag = false
+[INFO PAR-0038] Display Used Files
+	Solution file: /home/TritonPart/TD_3D/src/gpl3d/test/simple_placer3d_solution.txt
+[INFO PAR-0005] Reading netlist.
+[INFO PAR-0037] Extracting timing paths.
+[INFO PAR-0018] Read netlist has 10 vertices, 9 hyperedges and 2 timing paths.
+Display Timing Path Cuts Statistics
+	Total number of timing paths = 2
+	Total number of timing-critical paths = 2
+	Total number of timing-noncritical paths = 0
+	The worst number of cuts on timing-critical paths = 2
+	The average number of cuts on timing-critical paths = 1.00
+	Total number of timing-noncritical to timing critical paths = 0
+	The worst number of cuts on timing-non2critical paths = 0
+	The average number of cuts on timing-non2critical paths = 0.00
+[INFO PAR-0006] Updated solution file name: /home/TritonPart/TD_3D/src/gpl3d/test/simple_placer3d_solution.txt
+Finish TritonPart partitioning
+
+=====Partition Layer Information:=====
+BTerm: out Layer: 1
+BTerm: inp2 Layer: 0
+BTerm: inp1 Layer: 1
+BTerm: iccad_clk Layer: 1
+Inst: u4 Layer: 1
+Inst: u3 Layer: 1
+Inst: u2 Layer: 0
+Inst: u1 Layer: 0
+Inst: lcb1 Layer: 1
+Inst: f1 Layer: 0
+=====ODB Information:=====
+Number of instances: 6
+Instance name: u4
+    Instance type: INV_X1
+    Instance width: 1520
+    Instance height: 3420
+    Placement status : NONE
+Instance name: u3
+    Instance type: INV_X1
+    Instance width: 1520
+    Instance height: 3420
+    Placement status : NONE
+Instance name: u2
+    Instance type: NOR2_X1
+    Instance width: 2280
+    Instance height: 3420
+    Placement status : NONE
+Instance name: u1
+    Instance type: NAND2_X1
+    Instance width: 2280
+    Instance height: 3420
+    Placement status : NONE
+Instance name: lcb1
+    Instance type: INV_Z80
+    Instance width: 13680
+    Instance height: 3420
+    Placement status : NONE
+Instance name: f1
+    Instance type: DFF_X80
+    Instance width: 19000
+    Instance height: 3420
+    Placement status : NONE
+Number of pins: 4
+Pin name: out
+    pin width: 1
+    pin height: 1
+Pin name: inp2
+    pin width: 1
+    pin height: 1
+Pin name: inp1
+    pin width: 1
+    pin height: 1
+Pin name: iccad_clk
+    pin width: 1
+    pin height: 1
+Number of nets: 9
+Net name: lcb1_fo
+    Net bbox: ( 9122 917 ) ( 9894 2020 )
+    Net term count: 2
+Net name: inp2
+    Net bbox: ( 1550 1210 ) ( 1550 1210 )
+    Net term count: 2
+Net name: inp1
+    Net bbox: ( 400 1200 ) ( 400 1200 )
+    Net term count: 2
+Net name: iccad_clk
+    Net bbox: ( 4950 745 ) ( 4950 745 )
+    Net term count: 2
+Net name: n1
+    Net bbox: ( 665 745 ) ( 1295 1047 )
+    Net term count: 2
+Net name: n2
+    Net bbox: ( 1366 963 ) ( 17670 1505 )
+    Net term count: 2
+Net name: n3
+    Net bbox: ( 550 745 ) ( 1625 1803 )
+    Net term count: 3
+Net name: n4
+    Net bbox: ( 550 745 ) ( 1010 917 )
+    Net term count: 2
+Net name: out
+    Net bbox: ( 1010 917 ) ( 1010 917 )
+    Net term count: 2
+Number of rows: 4
+Row name: core_SITE_ROW_0
+    Row bbox: ( 0 0 ) ( 13680 3420 )
+    Site Spacing: 380
+    Site Count: 36
+Row name: core_SITE_ROW_1
+    Row bbox: ( 0 3420 ) ( 13680 6840 )
+    Site Spacing: 380
+    Site Count: 36
+Row name: core_SITE_ROW_2
+    Row bbox: ( 0 6840 ) ( 13680 10260 )
+    Site Spacing: 380
+    Site Count: 36
+Row name: core_SITE_ROW_3
+    Row bbox: ( 0 10260 ) ( 13680 13680 )
+    Site Spacing: 380
+    Site Count: 36
+Arc delay calc method : dmp_ceff_elmore
+Startpoint: inp2 (input port clocked by mclk)
+Endpoint: f1 (rising edge-triggered flip-flop clocked by mclk')
+Path Group: mclk
+Path Type: max
+
+ Delay   Time   Description
+-------------------------------------------------------
+  0.00   0.00   clock mclk (rise edge)
+  0.00   0.00   clock network delay (ideal)
+  0.00   0.00 ^ input external delay
+  0.05   0.05 ^ inp2 (in)
+ 52.62  52.67 v u1/o (NAND2_X1)
+100.33 153.00 ^ u2/o (NOR2_X1)
+  0.00 153.00 ^ f1/d (DFF_X80)
+       153.00   data arrival time
+
+ 30.00  30.00   clock mclk' (rise edge)
+  0.00  30.00   clock network delay (ideal)
+  0.00  30.00   clock reconvergence pessimism
+        30.00 ^ f1/ck (DFF_X80)
+ -1.50  28.50   library setup time
+        28.50   data required time
+-------------------------------------------------------
+        28.50   data required time
+       -153.00   data arrival time
+-------------------------------------------------------
+       -124.50   slack (VIOLATED)
+
+
+Startpoint: f1 (rising edge-triggered flip-flop clocked by mclk')
+Endpoint: out (output port clocked by mclk)
+Path Group: mclk
+Path Type: max
+
+ Delay   Time   Description
+-------------------------------------------------------
+ 30.00  30.00   clock mclk' (rise edge)
+  0.00  30.00   clock network delay (ideal)
+  0.00  30.00 ^ f1/ck (DFF_X80)
+ 19.29  49.29 ^ f1/q (DFF_X80)
+ 24.78  74.07 v u3/o (INV_X1)
+ 44.62 118.69 ^ u4/o (INV_X1)
+  0.00 118.69 ^ out (out)
+       118.69   data arrival time
+
+ 80.00  80.00   clock mclk (rise edge)
+  0.00  80.00   clock network delay (ideal)
+  0.00  80.00   clock reconvergence pessimism
+  0.00  80.00   output external delay
+        80.00   data required time
+-------------------------------------------------------
+        80.00   data required time
+       -118.69   data arrival time
+-------------------------------------------------------
+       -38.69   slack (VIOLATED)
+
+
+Found 9 unannotated drivers.
+ iccad_clk
+ inp1
+ inp2
+ f1/q
+ lcb1/o
+ u1/o
+ u2/o
+ u3/o
+ u4/o
+Found 0 partially unannotated drivers.
+[?2004hopenroad> exit
+[?2004l

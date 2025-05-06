@@ -28,20 +28,24 @@ set sdc "/home/testcase/iccad2015.ot/simple/simple.sdc"
 
 read_verilog $netlist
 
-# foreach lib_file ${EARLY_LIBS} {
-#     read_lib $lib_file
-# }
-foreach lib_file ${LATE_LIBS} {
-    read_lib $lib_file
+foreach lib_file_e ${EARLY_LIBS} {
+    read_lib -min $lib_file_e
+}
+foreach lib_file_l ${LATE_LIBS} {
+    read_lib -max $lib_file_l
 }
 foreach lef_file ${ALL_LEFS} {
   read_lef $lef_file
 }
-foreach def_file ${ALL_DEFS} {
-  read_def $def_file -continue_on_error
-}
 
 link_design $top_design
+
+# foreach def_file ${ALL_DEFS} {
+#   read_def $def_file -continue_on_error
+# }
+
+puts "Design linked"
+
 read_sdc $sdc
 
 ##############################################################################################
@@ -51,7 +55,16 @@ puts "Start placer3d"
 
 # set the debug level
 set_debug_level GPL3D "run" 1
+set_debug_level STA "search" 2
+# set_debug_level PAR "multilevel_partitioning" 1
+# set_debug_level PAR "v_cycle_refinement" 1
+# set_debug_level PAR "coarsening" 1
+# set_debug_level PAR "netlist" 1
+# set_debug_level PAR "refinement" 1
+# set_debug_level PAR "cut_overlay_clustering" 1
+# set_debug_level PAR "evaluation" 1
+# set_debug_level PAR "partitioning" 1
 
 # call triton_part to partition the netlist
 
-placer3d_run -argc 2
+placer3d_run -solution_file "/home/TritonPart/TD_3D/src/gpl3d/test/${design}_placer3d_solution.txt"

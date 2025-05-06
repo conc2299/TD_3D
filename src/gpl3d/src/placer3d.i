@@ -13,10 +13,10 @@ using ord::getPlacer3d;
 %inline 
 %{
 void placer3d_run(
-    int argc
+    char* solution_path
 )
 {
-    getPlacer3d()->run(argc);
+    getPlacer3d()->run(solution_path);
 }
 %}
 

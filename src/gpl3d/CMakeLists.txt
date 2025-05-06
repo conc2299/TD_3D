@@ -1,11 +1,10 @@
 
-
-
 include("openroad")
 
 add_library(gpl3d_lib
-    src/tryodb.cpp
+    src/odbStats.cpp
     src/placer3d.cpp
+    src/timing.cpp
 )
 
 find_package(Boost 1.80 REQUIRED)
@@ -16,6 +15,7 @@ target_link_libraries(gpl3d_lib
         OpenSTA
         utl_lib
         dbSta_lib
+        par
         Boost::boost
 )
 

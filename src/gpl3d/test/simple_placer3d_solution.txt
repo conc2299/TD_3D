@@ -1,0 +1,10 @@
+iccad_clk  0  
+inp1  1  
+inp2  1  
+out  1  
+f1  0  
+lcb1  0  
+u1  1  
+u2  1  
+u3  1  
+u4  1  

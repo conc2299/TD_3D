@@ -1,0 +1,3142 @@
+OpenROAD 54b6dce7af49c5d1905eb29212b914dcc5b5759b 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: /home/TritonPart/TD_3D/test/Nangate45/Nangate45_tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: /home/testcase/iccad2015.ot/superblue1/superblue1.lef, created 259 library cells
+[INFO ODB-0127] Reading DEF file: /home/testcase/iccad2015.ot/superblue1/superblue1.def
+[INFO ODB-0128] Design: superblue1
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0094] 		Created 400000 Insts
+[INFO ODB-0094] 		Created 500000 Insts
+[INFO ODB-0094] 		Created 600000 Insts
+[INFO ODB-0094] 		Created 700000 Insts
+[INFO ODB-0094] 		Created 800000 Insts
+[INFO ODB-0094] 		Created 900000 Insts
+[INFO ODB-0094] 		Created 1000000 Insts
+[INFO ODB-0094] 		Created 1100000 Insts
+[INFO ODB-0094] 		Created 1200000 Insts
+[INFO ODB-0130]     Created 6528 pins.
+[INFO ODB-0131]     Created 1209716 components and 3767638 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 0 connections.
+[INFO ODB-0134] Finished DEF file: /home/testcase/iccad2015.ot/superblue1/superblue1.def
+[WARNING STA-0441] set_input_delay relative to a clock defined on the same port/pin not allowed.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] -clock not supported.
+[WARNING STA-0462] message limit (1000) reached. This message will no longer print.
+Start placer3d
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.190  1.710 ) um
+[INFO GPL-0004] CoreBBox: (  6.840  3.420 ) ( 8543.160 3131.010 ) um
+[WARNING GPL-0001] FE_RN_ toplevel port is not placed!
+       Replace will regard FE_RN_ is placed in (0, 0)
+[WARNING GPL-0001] FE_RN_2 toplevel port is not placed!
+       Replace will regard FE_RN_2 is placed in (0, 0)
+[WARNING GPL-0001] FE_RN_4 toplevel port is not placed!
+       Replace will regard FE_RN_4 is placed in (0, 0)
+[WARNING GPL-0001] FE_RN_5 toplevel port is not placed!
+       Replace will regard FE_RN_5 is placed in (0, 0)
+[WARNING GPL-0001] FE_RN_6 toplevel port is not placed!
+       Replace will regard FE_RN_6 is placed in (0, 0)
+[WARNING GPL-0001] FE_RN_7 toplevel port is not placed!
+       Replace will regard FE_RN_7 is placed in (0, 0)
+[WARNING GPL-0001] FE_RN_9 toplevel port is not placed!
+       Replace will regard FE_RN_9 is placed in (0, 0)
+[WARNING GPL-0001] iccad_clk toplevel port is not placed!
+       Replace will regard iccad_clk is placed in (0, 0)
+[WARNING GPL-0001] p10000 toplevel port is not placed!
+       Replace will regard p10000 is placed in (0, 0)
+[WARNING GPL-0001] p10004 toplevel port is not placed!
+       Replace will regard p10004 is placed in (0, 0)
+[WARNING GPL-0001] p10008 toplevel port is not placed!
+       Replace will regard p10008 is placed in (0, 0)
+[WARNING GPL-0001] p10012 toplevel port is not placed!
+       Replace will regard p10012 is placed in (0, 0)
+[WARNING GPL-0001] p10016 toplevel port is not placed!
+       Replace will regard p10016 is placed in (0, 0)
+[WARNING GPL-0001] p10020 toplevel port is not placed!
+       Replace will regard p10020 is placed in (0, 0)
+[WARNING GPL-0001] p10024 toplevel port is not placed!
+       Replace will regard p10024 is placed in (0, 0)
+[WARNING GPL-0001] p10028 toplevel port is not placed!
+       Replace will regard p10028 is placed in (0, 0)
+[WARNING GPL-0001] p10032 toplevel port is not placed!
+       Replace will regard p10032 is placed in (0, 0)
+[WARNING GPL-0001] p10036 toplevel port is not placed!
+       Replace will regard p10036 is placed in (0, 0)
+[WARNING GPL-0001] p10040 toplevel port is not placed!
+       Replace will regard p10040 is placed in (0, 0)
+[WARNING GPL-0001] p10044 toplevel port is not placed!
+       Replace will regard p10044 is placed in (0, 0)
+[WARNING GPL-0001] p10048 toplevel port is not placed!
+       Replace will regard p10048 is placed in (0, 0)
+[WARNING GPL-0001] p10052 toplevel port is not placed!
+       Replace will regard p10052 is placed in (0, 0)
+[WARNING GPL-0001] p10056 toplevel port is not placed!
+       Replace will regard p10056 is placed in (0, 0)
+[WARNING GPL-0001] p10060 toplevel port is not placed!
+       Replace will regard p10060 is placed in (0, 0)
+[WARNING GPL-0001] p10064 toplevel port is not placed!
+       Replace will regard p10064 is placed in (0, 0)
+[WARNING GPL-0001] p10068 toplevel port is not placed!
+       Replace will regard p10068 is placed in (0, 0)
+[WARNING GPL-0001] p10072 toplevel port is not placed!
+       Replace will regard p10072 is placed in (0, 0)
+[WARNING GPL-0001] p10076 toplevel port is not placed!
+       Replace will regard p10076 is placed in (0, 0)
+[WARNING GPL-0001] p10080 toplevel port is not placed!
+       Replace will regard p10080 is placed in (0, 0)
+[WARNING GPL-0001] p10084 toplevel port is not placed!
+       Replace will regard p10084 is placed in (0, 0)
+[WARNING GPL-0001] p10088 toplevel port is not placed!
+       Replace will regard p10088 is placed in (0, 0)
+[WARNING GPL-0001] p10092 toplevel port is not placed!
+       Replace will regard p10092 is placed in (0, 0)
+[WARNING GPL-0001] p10096 toplevel port is not placed!
+       Replace will regard p10096 is placed in (0, 0)
+[WARNING GPL-0001] p10100 toplevel port is not placed!
+       Replace will regard p10100 is placed in (0, 0)
+[WARNING GPL-0001] p10104 toplevel port is not placed!
+       Replace will regard p10104 is placed in (0, 0)
+[WARNING GPL-0001] p10108 toplevel port is not placed!
+       Replace will regard p10108 is placed in (0, 0)
+[WARNING GPL-0001] p10112 toplevel port is not placed!
+       Replace will regard p10112 is placed in (0, 0)
+[WARNING GPL-0001] p10116 toplevel port is not placed!
+       Replace will regard p10116 is placed in (0, 0)
+[WARNING GPL-0001] p10120 toplevel port is not placed!
+       Replace will regard p10120 is placed in (0, 0)
+[WARNING GPL-0001] p10124 toplevel port is not placed!
+       Replace will regard p10124 is placed in (0, 0)
+[WARNING GPL-0001] p10128 toplevel port is not placed!
+       Replace will regard p10128 is placed in (0, 0)
+[WARNING GPL-0001] p10132 toplevel port is not placed!
+       Replace will regard p10132 is placed in (0, 0)
+[WARNING GPL-0001] p10136 toplevel port is not placed!
+       Replace will regard p10136 is placed in (0, 0)
+[WARNING GPL-0001] p10140 toplevel port is not placed!
+       Replace will regard p10140 is placed in (0, 0)
+[WARNING GPL-0001] p10144 toplevel port is not placed!
+       Replace will regard p10144 is placed in (0, 0)
+[WARNING GPL-0001] p10148 toplevel port is not placed!
+       Replace will regard p10148 is placed in (0, 0)
+[WARNING GPL-0001] p10152 toplevel port is not placed!
+       Replace will regard p10152 is placed in (0, 0)
+[WARNING GPL-0001] p10156 toplevel port is not placed!
+       Replace will regard p10156 is placed in (0, 0)
+[WARNING GPL-0001] p10160 toplevel port is not placed!
+       Replace will regard p10160 is placed in (0, 0)
+[WARNING GPL-0001] p10164 toplevel port is not placed!
+       Replace will regard p10164 is placed in (0, 0)
+[WARNING GPL-0001] p10168 toplevel port is not placed!
+       Replace will regard p10168 is placed in (0, 0)
+[WARNING GPL-0001] p10172 toplevel port is not placed!
+       Replace will regard p10172 is placed in (0, 0)
+[WARNING GPL-0001] p10176 toplevel port is not placed!
+       Replace will regard p10176 is placed in (0, 0)
+[WARNING GPL-0001] p10180 toplevel port is not placed!
+       Replace will regard p10180 is placed in (0, 0)
+[WARNING GPL-0001] p10184 toplevel port is not placed!
+       Replace will regard p10184 is placed in (0, 0)
+[WARNING GPL-0001] p10188 toplevel port is not placed!
+       Replace will regard p10188 is placed in (0, 0)
+[WARNING GPL-0001] p10192 toplevel port is not placed!
+       Replace will regard p10192 is placed in (0, 0)
+[WARNING GPL-0001] p10196 toplevel port is not placed!
+       Replace will regard p10196 is placed in (0, 0)
+[WARNING GPL-0001] p10200 toplevel port is not placed!
+       Replace will regard p10200 is placed in (0, 0)
+[WARNING GPL-0001] p10204 toplevel port is not placed!
+       Replace will regard p10204 is placed in (0, 0)
+[WARNING GPL-0001] p10208 toplevel port is not placed!
+       Replace will regard p10208 is placed in (0, 0)
+[WARNING GPL-0001] p10212 toplevel port is not placed!
+       Replace will regard p10212 is placed in (0, 0)
+[WARNING GPL-0001] p10216 toplevel port is not placed!
+       Replace will regard p10216 is placed in (0, 0)
+[WARNING GPL-0001] p10220 toplevel port is not placed!
+       Replace will regard p10220 is placed in (0, 0)
+[WARNING GPL-0001] p10224 toplevel port is not placed!
+       Replace will regard p10224 is placed in (0, 0)
+[WARNING GPL-0001] p10228 toplevel port is not placed!
+       Replace will regard p10228 is placed in (0, 0)
+[WARNING GPL-0001] p10232 toplevel port is not placed!
+       Replace will regard p10232 is placed in (0, 0)
+[WARNING GPL-0001] p10236 toplevel port is not placed!
+       Replace will regard p10236 is placed in (0, 0)
+[WARNING GPL-0001] p10240 toplevel port is not placed!
+       Replace will regard p10240 is placed in (0, 0)
+[WARNING GPL-0001] p10244 toplevel port is not placed!
+       Replace will regard p10244 is placed in (0, 0)
+[WARNING GPL-0001] p10248 toplevel port is not placed!
+       Replace will regard p10248 is placed in (0, 0)
+[WARNING GPL-0001] p10252 toplevel port is not placed!
+       Replace will regard p10252 is placed in (0, 0)
+[WARNING GPL-0001] p10256 toplevel port is not placed!
+       Replace will regard p10256 is placed in (0, 0)
+[WARNING GPL-0001] p10260 toplevel port is not placed!
+       Replace will regard p10260 is placed in (0, 0)
+[WARNING GPL-0001] p10264 toplevel port is not placed!
+       Replace will regard p10264 is placed in (0, 0)
+[WARNING GPL-0001] p10268 toplevel port is not placed!
+       Replace will regard p10268 is placed in (0, 0)
+[WARNING GPL-0001] p10272 toplevel port is not placed!
+       Replace will regard p10272 is placed in (0, 0)
+[WARNING GPL-0001] p10276 toplevel port is not placed!
+       Replace will regard p10276 is placed in (0, 0)
+[WARNING GPL-0001] p10280 toplevel port is not placed!
+       Replace will regard p10280 is placed in (0, 0)
+[WARNING GPL-0001] p10284 toplevel port is not placed!
+       Replace will regard p10284 is placed in (0, 0)
+[WARNING GPL-0001] p10288 toplevel port is not placed!
+       Replace will regard p10288 is placed in (0, 0)
+[WARNING GPL-0001] p10292 toplevel port is not placed!
+       Replace will regard p10292 is placed in (0, 0)
+[WARNING GPL-0001] p10296 toplevel port is not placed!
+       Replace will regard p10296 is placed in (0, 0)
+[WARNING GPL-0001] p10300 toplevel port is not placed!
+       Replace will regard p10300 is placed in (0, 0)
+[WARNING GPL-0001] p10304 toplevel port is not placed!
+       Replace will regard p10304 is placed in (0, 0)
+[WARNING GPL-0001] p10308 toplevel port is not placed!
+       Replace will regard p10308 is placed in (0, 0)
+[WARNING GPL-0001] p10312 toplevel port is not placed!
+       Replace will regard p10312 is placed in (0, 0)
+[WARNING GPL-0001] p10316 toplevel port is not placed!
+       Replace will regard p10316 is placed in (0, 0)
+[WARNING GPL-0001] p10320 toplevel port is not placed!
+       Replace will regard p10320 is placed in (0, 0)
+[WARNING GPL-0001] p10324 toplevel port is not placed!
+       Replace will regard p10324 is placed in (0, 0)
+[WARNING GPL-0001] p10328 toplevel port is not placed!
+       Replace will regard p10328 is placed in (0, 0)
+[WARNING GPL-0001] p10332 toplevel port is not placed!
+       Replace will regard p10332 is placed in (0, 0)
+[WARNING GPL-0001] p10336 toplevel port is not placed!
+       Replace will regard p10336 is placed in (0, 0)
+[WARNING GPL-0001] p10340 toplevel port is not placed!
+       Replace will regard p10340 is placed in (0, 0)
+[WARNING GPL-0001] p10344 toplevel port is not placed!
+       Replace will regard p10344 is placed in (0, 0)
+[WARNING GPL-0001] p10348 toplevel port is not placed!
+       Replace will regard p10348 is placed in (0, 0)
+[WARNING GPL-0001] p10352 toplevel port is not placed!
+       Replace will regard p10352 is placed in (0, 0)
+[WARNING GPL-0001] p10356 toplevel port is not placed!
+       Replace will regard p10356 is placed in (0, 0)
+[WARNING GPL-0001] p10360 toplevel port is not placed!
+       Replace will regard p10360 is placed in (0, 0)
+[WARNING GPL-0001] p10364 toplevel port is not placed!
+       Replace will regard p10364 is placed in (0, 0)
+[WARNING GPL-0001] p10368 toplevel port is not placed!
+       Replace will regard p10368 is placed in (0, 0)
+[WARNING GPL-0001] p10372 toplevel port is not placed!
+       Replace will regard p10372 is placed in (0, 0)
+[WARNING GPL-0001] p10376 toplevel port is not placed!
+       Replace will regard p10376 is placed in (0, 0)
+[WARNING GPL-0001] p10380 toplevel port is not placed!
+       Replace will regard p10380 is placed in (0, 0)
+[WARNING GPL-0001] p10384 toplevel port is not placed!
+       Replace will regard p10384 is placed in (0, 0)
+[WARNING GPL-0001] p10388 toplevel port is not placed!
+       Replace will regard p10388 is placed in (0, 0)
+[WARNING GPL-0001] p10392 toplevel port is not placed!
+       Replace will regard p10392 is placed in (0, 0)
+[WARNING GPL-0001] p10396 toplevel port is not placed!
+       Replace will regard p10396 is placed in (0, 0)
+[WARNING GPL-0001] p10400 toplevel port is not placed!
+       Replace will regard p10400 is placed in (0, 0)
+[WARNING GPL-0001] p10404 toplevel port is not placed!
+       Replace will regard p10404 is placed in (0, 0)
+[WARNING GPL-0001] p10408 toplevel port is not placed!
+       Replace will regard p10408 is placed in (0, 0)
+[WARNING GPL-0001] p10412 toplevel port is not placed!
+       Replace will regard p10412 is placed in (0, 0)
+[WARNING GPL-0001] p10416 toplevel port is not placed!
+       Replace will regard p10416 is placed in (0, 0)
+[WARNING GPL-0001] p10420 toplevel port is not placed!
+       Replace will regard p10420 is placed in (0, 0)
+[WARNING GPL-0001] p10424 toplevel port is not placed!
+       Replace will regard p10424 is placed in (0, 0)
+[WARNING GPL-0001] p10428 toplevel port is not placed!
+       Replace will regard p10428 is placed in (0, 0)
+[WARNING GPL-0001] p10432 toplevel port is not placed!
+       Replace will regard p10432 is placed in (0, 0)
+[WARNING GPL-0001] p10436 toplevel port is not placed!
+       Replace will regard p10436 is placed in (0, 0)
+[WARNING GPL-0001] p10440 toplevel port is not placed!
+       Replace will regard p10440 is placed in (0, 0)
+[WARNING GPL-0001] p10444 toplevel port is not placed!
+       Replace will regard p10444 is placed in (0, 0)
+[WARNING GPL-0001] p10448 toplevel port is not placed!
+       Replace will regard p10448 is placed in (0, 0)
+[WARNING GPL-0001] p10452 toplevel port is not placed!
+       Replace will regard p10452 is placed in (0, 0)
+[WARNING GPL-0001] p10456 toplevel port is not placed!
+       Replace will regard p10456 is placed in (0, 0)
+[WARNING GPL-0001] p10460 toplevel port is not placed!
+       Replace will regard p10460 is placed in (0, 0)
+[WARNING GPL-0001] p10464 toplevel port is not placed!
+       Replace will regard p10464 is placed in (0, 0)
+[WARNING GPL-0001] p10468 toplevel port is not placed!
+       Replace will regard p10468 is placed in (0, 0)
+[WARNING GPL-0001] p10472 toplevel port is not placed!
+       Replace will regard p10472 is placed in (0, 0)
+[WARNING GPL-0001] p10476 toplevel port is not placed!
+       Replace will regard p10476 is placed in (0, 0)
+[WARNING GPL-0001] p10480 toplevel port is not placed!
+       Replace will regard p10480 is placed in (0, 0)
+[WARNING GPL-0001] p10484 toplevel port is not placed!
+       Replace will regard p10484 is placed in (0, 0)
+[WARNING GPL-0001] p10488 toplevel port is not placed!
+       Replace will regard p10488 is placed in (0, 0)
+[WARNING GPL-0001] p10492 toplevel port is not placed!
+       Replace will regard p10492 is placed in (0, 0)
+[WARNING GPL-0001] p10496 toplevel port is not placed!
+       Replace will regard p10496 is placed in (0, 0)
+[WARNING GPL-0001] p10500 toplevel port is not placed!
+       Replace will regard p10500 is placed in (0, 0)
+[WARNING GPL-0001] p10504 toplevel port is not placed!
+       Replace will regard p10504 is placed in (0, 0)
+[WARNING GPL-0001] p10508 toplevel port is not placed!
+       Replace will regard p10508 is placed in (0, 0)
+[WARNING GPL-0001] p10512 toplevel port is not placed!
+       Replace will regard p10512 is placed in (0, 0)
+[WARNING GPL-0001] p10516 toplevel port is not placed!
+       Replace will regard p10516 is placed in (0, 0)
+[WARNING GPL-0001] p10520 toplevel port is not placed!
+       Replace will regard p10520 is placed in (0, 0)
+[WARNING GPL-0001] p10524 toplevel port is not placed!
+       Replace will regard p10524 is placed in (0, 0)
+[WARNING GPL-0001] p10528 toplevel port is not placed!
+       Replace will regard p10528 is placed in (0, 0)
+[WARNING GPL-0001] p10532 toplevel port is not placed!
+       Replace will regard p10532 is placed in (0, 0)
+[WARNING GPL-0001] p10536 toplevel port is not placed!
+       Replace will regard p10536 is placed in (0, 0)
+[WARNING GPL-0001] p10540 toplevel port is not placed!
+       Replace will regard p10540 is placed in (0, 0)
+[WARNING GPL-0001] p10544 toplevel port is not placed!
+       Replace will regard p10544 is placed in (0, 0)
+[WARNING GPL-0001] p10548 toplevel port is not placed!
+       Replace will regard p10548 is placed in (0, 0)
+[WARNING GPL-0001] p10552 toplevel port is not placed!
+       Replace will regard p10552 is placed in (0, 0)
+[WARNING GPL-0001] p10556 toplevel port is not placed!
+       Replace will regard p10556 is placed in (0, 0)
+[WARNING GPL-0001] p10560 toplevel port is not placed!
+       Replace will regard p10560 is placed in (0, 0)
+[WARNING GPL-0001] p10564 toplevel port is not placed!
+       Replace will regard p10564 is placed in (0, 0)
+[WARNING GPL-0001] p10568 toplevel port is not placed!
+       Replace will regard p10568 is placed in (0, 0)
+[WARNING GPL-0001] p10572 toplevel port is not placed!
+       Replace will regard p10572 is placed in (0, 0)
+[WARNING GPL-0001] p10576 toplevel port is not placed!
+       Replace will regard p10576 is placed in (0, 0)
+[WARNING GPL-0001] p10580 toplevel port is not placed!
+       Replace will regard p10580 is placed in (0, 0)
+[WARNING GPL-0001] p10584 toplevel port is not placed!
+       Replace will regard p10584 is placed in (0, 0)
+[WARNING GPL-0001] p10588 toplevel port is not placed!
+       Replace will regard p10588 is placed in (0, 0)
+[WARNING GPL-0001] p10592 toplevel port is not placed!
+       Replace will regard p10592 is placed in (0, 0)
+[WARNING GPL-0001] p10596 toplevel port is not placed!
+       Replace will regard p10596 is placed in (0, 0)
+[WARNING GPL-0001] p10600 toplevel port is not placed!
+       Replace will regard p10600 is placed in (0, 0)
+[WARNING GPL-0001] p10604 toplevel port is not placed!
+       Replace will regard p10604 is placed in (0, 0)
+[WARNING GPL-0001] p10608 toplevel port is not placed!
+       Replace will regard p10608 is placed in (0, 0)
+[WARNING GPL-0001] p10612 toplevel port is not placed!
+       Replace will regard p10612 is placed in (0, 0)
+[WARNING GPL-0001] p10616 toplevel port is not placed!
+       Replace will regard p10616 is placed in (0, 0)
+[WARNING GPL-0001] p10620 toplevel port is not placed!
+       Replace will regard p10620 is placed in (0, 0)
+[WARNING GPL-0001] p10624 toplevel port is not placed!
+       Replace will regard p10624 is placed in (0, 0)
+[WARNING GPL-0001] p10628 toplevel port is not placed!
+       Replace will regard p10628 is placed in (0, 0)
+[WARNING GPL-0001] p10632 toplevel port is not placed!
+       Replace will regard p10632 is placed in (0, 0)
+[WARNING GPL-0001] p10636 toplevel port is not placed!
+       Replace will regard p10636 is placed in (0, 0)
+[WARNING GPL-0001] p10640 toplevel port is not placed!
+       Replace will regard p10640 is placed in (0, 0)
+[WARNING GPL-0001] p10644 toplevel port is not placed!
+       Replace will regard p10644 is placed in (0, 0)
+[WARNING GPL-0001] p10648 toplevel port is not placed!
+       Replace will regard p10648 is placed in (0, 0)
+[WARNING GPL-0001] p10652 toplevel port is not placed!
+       Replace will regard p10652 is placed in (0, 0)
+[WARNING GPL-0001] p10656 toplevel port is not placed!
+       Replace will regard p10656 is placed in (0, 0)
+[WARNING GPL-0001] p10660 toplevel port is not placed!
+       Replace will regard p10660 is placed in (0, 0)
+[WARNING GPL-0001] p10664 toplevel port is not placed!
+       Replace will regard p10664 is placed in (0, 0)
+[WARNING GPL-0001] p10668 toplevel port is not placed!
+       Replace will regard p10668 is placed in (0, 0)
+[WARNING GPL-0001] p10672 toplevel port is not placed!
+       Replace will regard p10672 is placed in (0, 0)
+[WARNING GPL-0001] p10676 toplevel port is not placed!
+       Replace will regard p10676 is placed in (0, 0)
+[WARNING GPL-0001] p10680 toplevel port is not placed!
+       Replace will regard p10680 is placed in (0, 0)
+[WARNING GPL-0001] p10684 toplevel port is not placed!
+       Replace will regard p10684 is placed in (0, 0)
+[WARNING GPL-0001] p10688 toplevel port is not placed!
+       Replace will regard p10688 is placed in (0, 0)
+[WARNING GPL-0001] p10692 toplevel port is not placed!
+       Replace will regard p10692 is placed in (0, 0)
+[WARNING GPL-0001] p10696 toplevel port is not placed!
+       Replace will regard p10696 is placed in (0, 0)
+[WARNING GPL-0001] p10700 toplevel port is not placed!
+       Replace will regard p10700 is placed in (0, 0)
+[WARNING GPL-0001] p10704 toplevel port is not placed!
+       Replace will regard p10704 is placed in (0, 0)
+[WARNING GPL-0001] p10708 toplevel port is not placed!
+       Replace will regard p10708 is placed in (0, 0)
+[WARNING GPL-0001] p10712 toplevel port is not placed!
+       Replace will regard p10712 is placed in (0, 0)
+[WARNING GPL-0001] p10716 toplevel port is not placed!
+       Replace will regard p10716 is placed in (0, 0)
+[WARNING GPL-0001] p10720 toplevel port is not placed!
+       Replace will regard p10720 is placed in (0, 0)
+[WARNING GPL-0001] p10724 toplevel port is not placed!
+       Replace will regard p10724 is placed in (0, 0)
+[WARNING GPL-0001] p10728 toplevel port is not placed!
+       Replace will regard p10728 is placed in (0, 0)
+[WARNING GPL-0001] p10732 toplevel port is not placed!
+       Replace will regard p10732 is placed in (0, 0)
+[WARNING GPL-0001] p10736 toplevel port is not placed!
+       Replace will regard p10736 is placed in (0, 0)
+[WARNING GPL-0001] p10740 toplevel port is not placed!
+       Replace will regard p10740 is placed in (0, 0)
+[WARNING GPL-0001] p10744 toplevel port is not placed!
+       Replace will regard p10744 is placed in (0, 0)
+[WARNING GPL-0001] p10748 toplevel port is not placed!
+       Replace will regard p10748 is placed in (0, 0)
+[WARNING GPL-0001] p10752 toplevel port is not placed!
+       Replace will regard p10752 is placed in (0, 0)
+[WARNING GPL-0001] p10756 toplevel port is not placed!
+       Replace will regard p10756 is placed in (0, 0)
+[WARNING GPL-0001] p10760 toplevel port is not placed!
+       Replace will regard p10760 is placed in (0, 0)
+[WARNING GPL-0001] p10764 toplevel port is not placed!
+       Replace will regard p10764 is placed in (0, 0)
+[WARNING GPL-0001] p10768 toplevel port is not placed!
+       Replace will regard p10768 is placed in (0, 0)
+[WARNING GPL-0001] p10772 toplevel port is not placed!
+       Replace will regard p10772 is placed in (0, 0)
+[WARNING GPL-0001] p10776 toplevel port is not placed!
+       Replace will regard p10776 is placed in (0, 0)
+[WARNING GPL-0001] p10780 toplevel port is not placed!
+       Replace will regard p10780 is placed in (0, 0)
+[WARNING GPL-0001] p10784 toplevel port is not placed!
+       Replace will regard p10784 is placed in (0, 0)
+[WARNING GPL-0001] p10788 toplevel port is not placed!
+       Replace will regard p10788 is placed in (0, 0)
+[WARNING GPL-0001] p10792 toplevel port is not placed!
+       Replace will regard p10792 is placed in (0, 0)
+[WARNING GPL-0001] p10796 toplevel port is not placed!
+       Replace will regard p10796 is placed in (0, 0)
+[WARNING GPL-0001] p10800 toplevel port is not placed!
+       Replace will regard p10800 is placed in (0, 0)
+[WARNING GPL-0001] p10804 toplevel port is not placed!
+       Replace will regard p10804 is placed in (0, 0)
+[WARNING GPL-0001] p10808 toplevel port is not placed!
+       Replace will regard p10808 is placed in (0, 0)
+[WARNING GPL-0001] p10812 toplevel port is not placed!
+       Replace will regard p10812 is placed in (0, 0)
+[WARNING GPL-0001] p10816 toplevel port is not placed!
+       Replace will regard p10816 is placed in (0, 0)
+[WARNING GPL-0001] p10820 toplevel port is not placed!
+       Replace will regard p10820 is placed in (0, 0)
+[WARNING GPL-0001] p10824 toplevel port is not placed!
+       Replace will regard p10824 is placed in (0, 0)
+[WARNING GPL-0001] p10828 toplevel port is not placed!
+       Replace will regard p10828 is placed in (0, 0)
+[WARNING GPL-0001] p10832 toplevel port is not placed!
+       Replace will regard p10832 is placed in (0, 0)
+[WARNING GPL-0001] p10836 toplevel port is not placed!
+       Replace will regard p10836 is placed in (0, 0)
+[WARNING GPL-0001] p10840 toplevel port is not placed!
+       Replace will regard p10840 is placed in (0, 0)
+[WARNING GPL-0001] p10844 toplevel port is not placed!
+       Replace will regard p10844 is placed in (0, 0)
+[WARNING GPL-0001] p10848 toplevel port is not placed!
+       Replace will regard p10848 is placed in (0, 0)
+[WARNING GPL-0001] p10852 toplevel port is not placed!
+       Replace will regard p10852 is placed in (0, 0)
+[WARNING GPL-0001] p10856 toplevel port is not placed!
+       Replace will regard p10856 is placed in (0, 0)
+[WARNING GPL-0001] p10860 toplevel port is not placed!
+       Replace will regard p10860 is placed in (0, 0)
+[WARNING GPL-0001] p10864 toplevel port is not placed!
+       Replace will regard p10864 is placed in (0, 0)
+[WARNING GPL-0001] p10868 toplevel port is not placed!
+       Replace will regard p10868 is placed in (0, 0)
+[WARNING GPL-0001] p10872 toplevel port is not placed!
+       Replace will regard p10872 is placed in (0, 0)
+[WARNING GPL-0001] p10876 toplevel port is not placed!
+       Replace will regard p10876 is placed in (0, 0)
+[WARNING GPL-0001] p10880 toplevel port is not placed!
+       Replace will regard p10880 is placed in (0, 0)
+[WARNING GPL-0001] p10884 toplevel port is not placed!
+       Replace will regard p10884 is placed in (0, 0)
+[WARNING GPL-0001] p10888 toplevel port is not placed!
+       Replace will regard p10888 is placed in (0, 0)
+[WARNING GPL-0001] p10892 toplevel port is not placed!
+       Replace will regard p10892 is placed in (0, 0)
+[WARNING GPL-0001] p10896 toplevel port is not placed!
+       Replace will regard p10896 is placed in (0, 0)
+[WARNING GPL-0001] p10900 toplevel port is not placed!
+       Replace will regard p10900 is placed in (0, 0)
+[WARNING GPL-0001] p10904 toplevel port is not placed!
+       Replace will regard p10904 is placed in (0, 0)
+[WARNING GPL-0001] p10908 toplevel port is not placed!
+       Replace will regard p10908 is placed in (0, 0)
+[WARNING GPL-0001] p10912 toplevel port is not placed!
+       Replace will regard p10912 is placed in (0, 0)
+[WARNING GPL-0001] p10916 toplevel port is not placed!
+       Replace will regard p10916 is placed in (0, 0)
+[WARNING GPL-0001] p10920 toplevel port is not placed!
+       Replace will regard p10920 is placed in (0, 0)
+[WARNING GPL-0001] p10924 toplevel port is not placed!
+       Replace will regard p10924 is placed in (0, 0)
+[WARNING GPL-0001] p10928 toplevel port is not placed!
+       Replace will regard p10928 is placed in (0, 0)
+[WARNING GPL-0001] p10932 toplevel port is not placed!
+       Replace will regard p10932 is placed in (0, 0)
+[WARNING GPL-0001] p10936 toplevel port is not placed!
+       Replace will regard p10936 is placed in (0, 0)
+[WARNING GPL-0001] p10940 toplevel port is not placed!
+       Replace will regard p10940 is placed in (0, 0)
+[WARNING GPL-0001] p10944 toplevel port is not placed!
+       Replace will regard p10944 is placed in (0, 0)
+[WARNING GPL-0001] p10948 toplevel port is not placed!
+       Replace will regard p10948 is placed in (0, 0)
+[WARNING GPL-0001] p10952 toplevel port is not placed!
+       Replace will regard p10952 is placed in (0, 0)
+[WARNING GPL-0001] p10956 toplevel port is not placed!
+       Replace will regard p10956 is placed in (0, 0)
+[WARNING GPL-0001] p10960 toplevel port is not placed!
+       Replace will regard p10960 is placed in (0, 0)
+[WARNING GPL-0001] p10964 toplevel port is not placed!
+       Replace will regard p10964 is placed in (0, 0)
+[WARNING GPL-0001] p10968 toplevel port is not placed!
+       Replace will regard p10968 is placed in (0, 0)
+[WARNING GPL-0001] p10972 toplevel port is not placed!
+       Replace will regard p10972 is placed in (0, 0)
+[WARNING GPL-0001] p10976 toplevel port is not placed!
+       Replace will regard p10976 is placed in (0, 0)
+[WARNING GPL-0001] p10980 toplevel port is not placed!
+       Replace will regard p10980 is placed in (0, 0)
+[WARNING GPL-0001] p10984 toplevel port is not placed!
+       Replace will regard p10984 is placed in (0, 0)
+[WARNING GPL-0001] p10988 toplevel port is not placed!
+       Replace will regard p10988 is placed in (0, 0)
+[WARNING GPL-0001] p10992 toplevel port is not placed!
+       Replace will regard p10992 is placed in (0, 0)
+[WARNING GPL-0001] p10996 toplevel port is not placed!
+       Replace will regard p10996 is placed in (0, 0)
+[WARNING GPL-0001] p11000 toplevel port is not placed!
+       Replace will regard p11000 is placed in (0, 0)
+[WARNING GPL-0001] p11004 toplevel port is not placed!
+       Replace will regard p11004 is placed in (0, 0)
+[WARNING GPL-0001] p11008 toplevel port is not placed!
+       Replace will regard p11008 is placed in (0, 0)
+[WARNING GPL-0001] p11012 toplevel port is not placed!
+       Replace will regard p11012 is placed in (0, 0)
+[WARNING GPL-0001] p11016 toplevel port is not placed!
+       Replace will regard p11016 is placed in (0, 0)
+[WARNING GPL-0001] p11020 toplevel port is not placed!
+       Replace will regard p11020 is placed in (0, 0)
+[WARNING GPL-0001] p11024 toplevel port is not placed!
+       Replace will regard p11024 is placed in (0, 0)
+[WARNING GPL-0001] p11028 toplevel port is not placed!
+       Replace will regard p11028 is placed in (0, 0)
+[WARNING GPL-0001] p11032 toplevel port is not placed!
+       Replace will regard p11032 is placed in (0, 0)
+[WARNING GPL-0001] p11036 toplevel port is not placed!
+       Replace will regard p11036 is placed in (0, 0)
+[WARNING GPL-0001] p11040 toplevel port is not placed!
+       Replace will regard p11040 is placed in (0, 0)
+[WARNING GPL-0001] p11044 toplevel port is not placed!
+       Replace will regard p11044 is placed in (0, 0)
+[WARNING GPL-0001] p11048 toplevel port is not placed!
+       Replace will regard p11048 is placed in (0, 0)
+[WARNING GPL-0001] p11052 toplevel port is not placed!
+       Replace will regard p11052 is placed in (0, 0)
+[WARNING GPL-0001] p11056 toplevel port is not placed!
+       Replace will regard p11056 is placed in (0, 0)
+[WARNING GPL-0001] p11060 toplevel port is not placed!
+       Replace will regard p11060 is placed in (0, 0)
+[WARNING GPL-0001] p11064 toplevel port is not placed!
+       Replace will regard p11064 is placed in (0, 0)
+[WARNING GPL-0001] p11068 toplevel port is not placed!
+       Replace will regard p11068 is placed in (0, 0)
+[WARNING GPL-0001] p11072 toplevel port is not placed!
+       Replace will regard p11072 is placed in (0, 0)
+[WARNING GPL-0001] p11076 toplevel port is not placed!
+       Replace will regard p11076 is placed in (0, 0)
+[WARNING GPL-0001] p11080 toplevel port is not placed!
+       Replace will regard p11080 is placed in (0, 0)
+[WARNING GPL-0001] p11084 toplevel port is not placed!
+       Replace will regard p11084 is placed in (0, 0)
+[WARNING GPL-0001] p11088 toplevel port is not placed!
+       Replace will regard p11088 is placed in (0, 0)
+[WARNING GPL-0001] p11092 toplevel port is not placed!
+       Replace will regard p11092 is placed in (0, 0)
+[WARNING GPL-0001] p11096 toplevel port is not placed!
+       Replace will regard p11096 is placed in (0, 0)
+[WARNING GPL-0001] p11100 toplevel port is not placed!
+       Replace will regard p11100 is placed in (0, 0)
+[WARNING GPL-0001] p11104 toplevel port is not placed!
+       Replace will regard p11104 is placed in (0, 0)
+[WARNING GPL-0001] p11108 toplevel port is not placed!
+       Replace will regard p11108 is placed in (0, 0)
+[WARNING GPL-0001] p11112 toplevel port is not placed!
+       Replace will regard p11112 is placed in (0, 0)
+[WARNING GPL-0001] p11116 toplevel port is not placed!
+       Replace will regard p11116 is placed in (0, 0)
+[WARNING GPL-0001] p11120 toplevel port is not placed!
+       Replace will regard p11120 is placed in (0, 0)
+[WARNING GPL-0001] p11124 toplevel port is not placed!
+       Replace will regard p11124 is placed in (0, 0)
+[WARNING GPL-0001] p11128 toplevel port is not placed!
+       Replace will regard p11128 is placed in (0, 0)
+[WARNING GPL-0001] p11132 toplevel port is not placed!
+       Replace will regard p11132 is placed in (0, 0)
+[WARNING GPL-0001] p11136 toplevel port is not placed!
+       Replace will regard p11136 is placed in (0, 0)
+[WARNING GPL-0001] p11140 toplevel port is not placed!
+       Replace will regard p11140 is placed in (0, 0)
+[WARNING GPL-0001] p11144 toplevel port is not placed!
+       Replace will regard p11144 is placed in (0, 0)
+[WARNING GPL-0001] p11148 toplevel port is not placed!
+       Replace will regard p11148 is placed in (0, 0)
+[WARNING GPL-0001] p11152 toplevel port is not placed!
+       Replace will regard p11152 is placed in (0, 0)
+[WARNING GPL-0001] p11156 toplevel port is not placed!
+       Replace will regard p11156 is placed in (0, 0)
+[WARNING GPL-0001] p11160 toplevel port is not placed!
+       Replace will regard p11160 is placed in (0, 0)
+[WARNING GPL-0001] p11164 toplevel port is not placed!
+       Replace will regard p11164 is placed in (0, 0)
+[WARNING GPL-0001] p11168 toplevel port is not placed!
+       Replace will regard p11168 is placed in (0, 0)
+[WARNING GPL-0001] p11172 toplevel port is not placed!
+       Replace will regard p11172 is placed in (0, 0)
+[WARNING GPL-0001] p11176 toplevel port is not placed!
+       Replace will regard p11176 is placed in (0, 0)
+[WARNING GPL-0001] p11180 toplevel port is not placed!
+       Replace will regard p11180 is placed in (0, 0)
+[WARNING GPL-0001] p11184 toplevel port is not placed!
+       Replace will regard p11184 is placed in (0, 0)
+[WARNING GPL-0001] p11188 toplevel port is not placed!
+       Replace will regard p11188 is placed in (0, 0)
+[WARNING GPL-0001] p11192 toplevel port is not placed!
+       Replace will regard p11192 is placed in (0, 0)
+[WARNING GPL-0001] p11196 toplevel port is not placed!
+       Replace will regard p11196 is placed in (0, 0)
+[WARNING GPL-0001] p11200 toplevel port is not placed!
+       Replace will regard p11200 is placed in (0, 0)
+[WARNING GPL-0001] p11204 toplevel port is not placed!
+       Replace will regard p11204 is placed in (0, 0)
+[WARNING GPL-0001] p11208 toplevel port is not placed!
+       Replace will regard p11208 is placed in (0, 0)
+[WARNING GPL-0001] p11212 toplevel port is not placed!
+       Replace will regard p11212 is placed in (0, 0)
+[WARNING GPL-0001] p11216 toplevel port is not placed!
+       Replace will regard p11216 is placed in (0, 0)
+[WARNING GPL-0001] p11220 toplevel port is not placed!
+       Replace will regard p11220 is placed in (0, 0)
+[WARNING GPL-0001] p11224 toplevel port is not placed!
+       Replace will regard p11224 is placed in (0, 0)
+[WARNING GPL-0001] p11228 toplevel port is not placed!
+       Replace will regard p11228 is placed in (0, 0)
+[WARNING GPL-0001] p11232 toplevel port is not placed!
+       Replace will regard p11232 is placed in (0, 0)
+[WARNING GPL-0001] p11236 toplevel port is not placed!
+       Replace will regard p11236 is placed in (0, 0)
+[WARNING GPL-0001] p11240 toplevel port is not placed!
+       Replace will regard p11240 is placed in (0, 0)
+[WARNING GPL-0001] p11244 toplevel port is not placed!
+       Replace will regard p11244 is placed in (0, 0)
+[WARNING GPL-0001] p11248 toplevel port is not placed!
+       Replace will regard p11248 is placed in (0, 0)
+[WARNING GPL-0001] p11252 toplevel port is not placed!
+       Replace will regard p11252 is placed in (0, 0)
+[WARNING GPL-0001] p11256 toplevel port is not placed!
+       Replace will regard p11256 is placed in (0, 0)
+[WARNING GPL-0001] p11260 toplevel port is not placed!
+       Replace will regard p11260 is placed in (0, 0)
+[WARNING GPL-0001] p11264 toplevel port is not placed!
+       Replace will regard p11264 is placed in (0, 0)
+[WARNING GPL-0001] p11268 toplevel port is not placed!
+       Replace will regard p11268 is placed in (0, 0)
+[WARNING GPL-0001] p11272 toplevel port is not placed!
+       Replace will regard p11272 is placed in (0, 0)
+[WARNING GPL-0001] p11276 toplevel port is not placed!
+       Replace will regard p11276 is placed in (0, 0)
+[WARNING GPL-0001] p11280 toplevel port is not placed!
+       Replace will regard p11280 is placed in (0, 0)
+[WARNING GPL-0001] p11284 toplevel port is not placed!
+       Replace will regard p11284 is placed in (0, 0)
+[WARNING GPL-0001] p11288 toplevel port is not placed!
+       Replace will regard p11288 is placed in (0, 0)
+[WARNING GPL-0001] p11292 toplevel port is not placed!
+       Replace will regard p11292 is placed in (0, 0)
+[WARNING GPL-0001] p11296 toplevel port is not placed!
+       Replace will regard p11296 is placed in (0, 0)
+[WARNING GPL-0001] p11300 toplevel port is not placed!
+       Replace will regard p11300 is placed in (0, 0)
+[WARNING GPL-0001] p11304 toplevel port is not placed!
+       Replace will regard p11304 is placed in (0, 0)
+[WARNING GPL-0001] p11308 toplevel port is not placed!
+       Replace will regard p11308 is placed in (0, 0)
+[WARNING GPL-0001] p11312 toplevel port is not placed!
+       Replace will regard p11312 is placed in (0, 0)
+[WARNING GPL-0001] p11316 toplevel port is not placed!
+       Replace will regard p11316 is placed in (0, 0)
+[WARNING GPL-0001] p11320 toplevel port is not placed!
+       Replace will regard p11320 is placed in (0, 0)
+[WARNING GPL-0001] p11324 toplevel port is not placed!
+       Replace will regard p11324 is placed in (0, 0)
+[WARNING GPL-0001] p11328 toplevel port is not placed!
+       Replace will regard p11328 is placed in (0, 0)
+[WARNING GPL-0001] p11332 toplevel port is not placed!
+       Replace will regard p11332 is placed in (0, 0)
+[WARNING GPL-0001] p11336 toplevel port is not placed!
+       Replace will regard p11336 is placed in (0, 0)
+[WARNING GPL-0001] p11340 toplevel port is not placed!
+       Replace will regard p11340 is placed in (0, 0)
+[WARNING GPL-0001] p11344 toplevel port is not placed!
+       Replace will regard p11344 is placed in (0, 0)
+[WARNING GPL-0001] p11348 toplevel port is not placed!
+       Replace will regard p11348 is placed in (0, 0)
+[WARNING GPL-0001] p11352 toplevel port is not placed!
+       Replace will regard p11352 is placed in (0, 0)
+[WARNING GPL-0001] p11356 toplevel port is not placed!
+       Replace will regard p11356 is placed in (0, 0)
+[WARNING GPL-0001] p11360 toplevel port is not placed!
+       Replace will regard p11360 is placed in (0, 0)
+[WARNING GPL-0001] p11364 toplevel port is not placed!
+       Replace will regard p11364 is placed in (0, 0)
+[WARNING GPL-0001] p11368 toplevel port is not placed!
+       Replace will regard p11368 is placed in (0, 0)
+[WARNING GPL-0001] p11372 toplevel port is not placed!
+       Replace will regard p11372 is placed in (0, 0)
+[WARNING GPL-0001] p11376 toplevel port is not placed!
+       Replace will regard p11376 is placed in (0, 0)
+[WARNING GPL-0001] p11380 toplevel port is not placed!
+       Replace will regard p11380 is placed in (0, 0)
+[WARNING GPL-0001] p11384 toplevel port is not placed!
+       Replace will regard p11384 is placed in (0, 0)
+[WARNING GPL-0001] p11388 toplevel port is not placed!
+       Replace will regard p11388 is placed in (0, 0)
+[WARNING GPL-0001] p11392 toplevel port is not placed!
+       Replace will regard p11392 is placed in (0, 0)
+[WARNING GPL-0001] p11396 toplevel port is not placed!
+       Replace will regard p11396 is placed in (0, 0)
+[WARNING GPL-0001] p11400 toplevel port is not placed!
+       Replace will regard p11400 is placed in (0, 0)
+[WARNING GPL-0001] p11404 toplevel port is not placed!
+       Replace will regard p11404 is placed in (0, 0)
+[WARNING GPL-0001] p11408 toplevel port is not placed!
+       Replace will regard p11408 is placed in (0, 0)
+[WARNING GPL-0001] p11412 toplevel port is not placed!
+       Replace will regard p11412 is placed in (0, 0)
+[WARNING GPL-0001] p11416 toplevel port is not placed!
+       Replace will regard p11416 is placed in (0, 0)
+[WARNING GPL-0001] p11420 toplevel port is not placed!
+       Replace will regard p11420 is placed in (0, 0)
+[WARNING GPL-0001] p11424 toplevel port is not placed!
+       Replace will regard p11424 is placed in (0, 0)
+[WARNING GPL-0001] p11428 toplevel port is not placed!
+       Replace will regard p11428 is placed in (0, 0)
+[WARNING GPL-0001] p11432 toplevel port is not placed!
+       Replace will regard p11432 is placed in (0, 0)
+[WARNING GPL-0001] p11436 toplevel port is not placed!
+       Replace will regard p11436 is placed in (0, 0)
+[WARNING GPL-0001] p11440 toplevel port is not placed!
+       Replace will regard p11440 is placed in (0, 0)
+[WARNING GPL-0001] p11444 toplevel port is not placed!
+       Replace will regard p11444 is placed in (0, 0)
+[WARNING GPL-0001] p11448 toplevel port is not placed!
+       Replace will regard p11448 is placed in (0, 0)
+[WARNING GPL-0001] p11452 toplevel port is not placed!
+       Replace will regard p11452 is placed in (0, 0)
+[WARNING GPL-0001] p11456 toplevel port is not placed!
+       Replace will regard p11456 is placed in (0, 0)
+[WARNING GPL-0001] p11460 toplevel port is not placed!
+       Replace will regard p11460 is placed in (0, 0)
+[WARNING GPL-0001] p11464 toplevel port is not placed!
+       Replace will regard p11464 is placed in (0, 0)
+[WARNING GPL-0001] p11468 toplevel port is not placed!
+       Replace will regard p11468 is placed in (0, 0)
+[WARNING GPL-0001] p11472 toplevel port is not placed!
+       Replace will regard p11472 is placed in (0, 0)
+[WARNING GPL-0001] p11476 toplevel port is not placed!
+       Replace will regard p11476 is placed in (0, 0)
+[WARNING GPL-0001] p11480 toplevel port is not placed!
+       Replace will regard p11480 is placed in (0, 0)
+[WARNING GPL-0001] p11484 toplevel port is not placed!
+       Replace will regard p11484 is placed in (0, 0)
+[WARNING GPL-0001] p11488 toplevel port is not placed!
+       Replace will regard p11488 is placed in (0, 0)
+[WARNING GPL-0001] p11492 toplevel port is not placed!
+       Replace will regard p11492 is placed in (0, 0)
+[WARNING GPL-0001] p11496 toplevel port is not placed!
+       Replace will regard p11496 is placed in (0, 0)
+[WARNING GPL-0001] p11500 toplevel port is not placed!
+       Replace will regard p11500 is placed in (0, 0)
+[WARNING GPL-0001] p11504 toplevel port is not placed!
+       Replace will regard p11504 is placed in (0, 0)
+[WARNING GPL-0001] p11508 toplevel port is not placed!
+       Replace will regard p11508 is placed in (0, 0)
+[WARNING GPL-0001] p11512 toplevel port is not placed!
+       Replace will regard p11512 is placed in (0, 0)
+[WARNING GPL-0001] p11516 toplevel port is not placed!
+       Replace will regard p11516 is placed in (0, 0)
+[WARNING GPL-0001] p11520 toplevel port is not placed!
+       Replace will regard p11520 is placed in (0, 0)
+[WARNING GPL-0001] p11524 toplevel port is not placed!
+       Replace will regard p11524 is placed in (0, 0)
+[WARNING GPL-0001] p11528 toplevel port is not placed!
+       Replace will regard p11528 is placed in (0, 0)
+[WARNING GPL-0001] p11532 toplevel port is not placed!
+       Replace will regard p11532 is placed in (0, 0)
+[WARNING GPL-0001] p11536 toplevel port is not placed!
+       Replace will regard p11536 is placed in (0, 0)
+[WARNING GPL-0001] p11540 toplevel port is not placed!
+       Replace will regard p11540 is placed in (0, 0)
+[WARNING GPL-0001] p11544 toplevel port is not placed!
+       Replace will regard p11544 is placed in (0, 0)
+[WARNING GPL-0001] p11548 toplevel port is not placed!
+       Replace will regard p11548 is placed in (0, 0)
+[WARNING GPL-0001] p11552 toplevel port is not placed!
+       Replace will regard p11552 is placed in (0, 0)
+[WARNING GPL-0001] p11556 toplevel port is not placed!
+       Replace will regard p11556 is placed in (0, 0)
+[WARNING GPL-0001] p11560 toplevel port is not placed!
+       Replace will regard p11560 is placed in (0, 0)
+[WARNING GPL-0001] p11564 toplevel port is not placed!
+       Replace will regard p11564 is placed in (0, 0)
+[WARNING GPL-0001] p11568 toplevel port is not placed!
+       Replace will regard p11568 is placed in (0, 0)
+[WARNING GPL-0001] p11572 toplevel port is not placed!
+       Replace will regard p11572 is placed in (0, 0)
+[WARNING GPL-0001] p11576 toplevel port is not placed!
+       Replace will regard p11576 is placed in (0, 0)
+[WARNING GPL-0001] p11580 toplevel port is not placed!
+       Replace will regard p11580 is placed in (0, 0)
+[WARNING GPL-0001] p11584 toplevel port is not placed!
+       Replace will regard p11584 is placed in (0, 0)
+[WARNING GPL-0001] p11588 toplevel port is not placed!
+       Replace will regard p11588 is placed in (0, 0)
+[WARNING GPL-0001] p11592 toplevel port is not placed!
+       Replace will regard p11592 is placed in (0, 0)
+[WARNING GPL-0001] p11596 toplevel port is not placed!
+       Replace will regard p11596 is placed in (0, 0)
+[WARNING GPL-0001] p11600 toplevel port is not placed!
+       Replace will regard p11600 is placed in (0, 0)
+[WARNING GPL-0001] p11604 toplevel port is not placed!
+       Replace will regard p11604 is placed in (0, 0)
+[WARNING GPL-0001] p11608 toplevel port is not placed!
+       Replace will regard p11608 is placed in (0, 0)
+[WARNING GPL-0001] p11612 toplevel port is not placed!
+       Replace will regard p11612 is placed in (0, 0)
+[WARNING GPL-0001] p11616 toplevel port is not placed!
+       Replace will regard p11616 is placed in (0, 0)
+[WARNING GPL-0001] p11620 toplevel port is not placed!
+       Replace will regard p11620 is placed in (0, 0)
+[WARNING GPL-0001] p11624 toplevel port is not placed!
+       Replace will regard p11624 is placed in (0, 0)
+[WARNING GPL-0001] p11628 toplevel port is not placed!
+       Replace will regard p11628 is placed in (0, 0)
+[WARNING GPL-0001] p11632 toplevel port is not placed!
+       Replace will regard p11632 is placed in (0, 0)
+[WARNING GPL-0001] p11636 toplevel port is not placed!
+       Replace will regard p11636 is placed in (0, 0)
+[WARNING GPL-0001] p11640 toplevel port is not placed!
+       Replace will regard p11640 is placed in (0, 0)
+[WARNING GPL-0001] p11644 toplevel port is not placed!
+       Replace will regard p11644 is placed in (0, 0)
+[WARNING GPL-0001] p11648 toplevel port is not placed!
+       Replace will regard p11648 is placed in (0, 0)
+[WARNING GPL-0001] p11652 toplevel port is not placed!
+       Replace will regard p11652 is placed in (0, 0)
+[WARNING GPL-0001] p11656 toplevel port is not placed!
+       Replace will regard p11656 is placed in (0, 0)
+[WARNING GPL-0001] p11660 toplevel port is not placed!
+       Replace will regard p11660 is placed in (0, 0)
+[WARNING GPL-0001] p11664 toplevel port is not placed!
+       Replace will regard p11664 is placed in (0, 0)
+[WARNING GPL-0001] p11668 toplevel port is not placed!
+       Replace will regard p11668 is placed in (0, 0)
+[WARNING GPL-0001] p11672 toplevel port is not placed!
+       Replace will regard p11672 is placed in (0, 0)
+[WARNING GPL-0001] p11676 toplevel port is not placed!
+       Replace will regard p11676 is placed in (0, 0)
+[WARNING GPL-0001] p11680 toplevel port is not placed!
+       Replace will regard p11680 is placed in (0, 0)
+[WARNING GPL-0001] p11684 toplevel port is not placed!
+       Replace will regard p11684 is placed in (0, 0)
+[WARNING GPL-0001] p11688 toplevel port is not placed!
+       Replace will regard p11688 is placed in (0, 0)
+[WARNING GPL-0001] p11692 toplevel port is not placed!
+       Replace will regard p11692 is placed in (0, 0)
+[WARNING GPL-0001] p11696 toplevel port is not placed!
+       Replace will regard p11696 is placed in (0, 0)
+[WARNING GPL-0001] p11700 toplevel port is not placed!
+       Replace will regard p11700 is placed in (0, 0)
+[WARNING GPL-0001] p11704 toplevel port is not placed!
+       Replace will regard p11704 is placed in (0, 0)
+[WARNING GPL-0001] p11708 toplevel port is not placed!
+       Replace will regard p11708 is placed in (0, 0)
+[WARNING GPL-0001] p11712 toplevel port is not placed!
+       Replace will regard p11712 is placed in (0, 0)
+[WARNING GPL-0001] p11716 toplevel port is not placed!
+       Replace will regard p11716 is placed in (0, 0)
+[WARNING GPL-0001] p11720 toplevel port is not placed!
+       Replace will regard p11720 is placed in (0, 0)
+[WARNING GPL-0001] p11724 toplevel port is not placed!
+       Replace will regard p11724 is placed in (0, 0)
+[WARNING GPL-0001] p11728 toplevel port is not placed!
+       Replace will regard p11728 is placed in (0, 0)
+[WARNING GPL-0001] p11732 toplevel port is not placed!
+       Replace will regard p11732 is placed in (0, 0)
+[WARNING GPL-0001] p11736 toplevel port is not placed!
+       Replace will regard p11736 is placed in (0, 0)
+[WARNING GPL-0001] p11740 toplevel port is not placed!
+       Replace will regard p11740 is placed in (0, 0)
+[WARNING GPL-0001] p11744 toplevel port is not placed!
+       Replace will regard p11744 is placed in (0, 0)
+[WARNING GPL-0001] p11748 toplevel port is not placed!
+       Replace will regard p11748 is placed in (0, 0)
+[WARNING GPL-0001] p11752 toplevel port is not placed!
+       Replace will regard p11752 is placed in (0, 0)
+[WARNING GPL-0001] p11756 toplevel port is not placed!
+       Replace will regard p11756 is placed in (0, 0)
+[WARNING GPL-0001] p11760 toplevel port is not placed!
+       Replace will regard p11760 is placed in (0, 0)
+[WARNING GPL-0001] p11764 toplevel port is not placed!
+       Replace will regard p11764 is placed in (0, 0)
+[WARNING GPL-0001] p11768 toplevel port is not placed!
+       Replace will regard p11768 is placed in (0, 0)
+[WARNING GPL-0001] p11772 toplevel port is not placed!
+       Replace will regard p11772 is placed in (0, 0)
+[WARNING GPL-0001] p11776 toplevel port is not placed!
+       Replace will regard p11776 is placed in (0, 0)
+[WARNING GPL-0001] p11780 toplevel port is not placed!
+       Replace will regard p11780 is placed in (0, 0)
+[WARNING GPL-0001] p11784 toplevel port is not placed!
+       Replace will regard p11784 is placed in (0, 0)
+[WARNING GPL-0001] p11788 toplevel port is not placed!
+       Replace will regard p11788 is placed in (0, 0)
+[WARNING GPL-0001] p11792 toplevel port is not placed!
+       Replace will regard p11792 is placed in (0, 0)
+[WARNING GPL-0001] p11796 toplevel port is not placed!
+       Replace will regard p11796 is placed in (0, 0)
+[WARNING GPL-0001] p11800 toplevel port is not placed!
+       Replace will regard p11800 is placed in (0, 0)
+[WARNING GPL-0001] p11805 toplevel port is not placed!
+       Replace will regard p11805 is placed in (0, 0)
+[WARNING GPL-0001] p11808 toplevel port is not placed!
+       Replace will regard p11808 is placed in (0, 0)
+[WARNING GPL-0001] p11812 toplevel port is not placed!
+       Replace will regard p11812 is placed in (0, 0)
+[WARNING GPL-0001] p11816 toplevel port is not placed!
+       Replace will regard p11816 is placed in (0, 0)
+[WARNING GPL-0001] p11820 toplevel port is not placed!
+       Replace will regard p11820 is placed in (0, 0)
+[WARNING GPL-0001] p11824 toplevel port is not placed!
+       Replace will regard p11824 is placed in (0, 0)
+[WARNING GPL-0001] p11828 toplevel port is not placed!
+       Replace will regard p11828 is placed in (0, 0)
+[WARNING GPL-0001] p11832 toplevel port is not placed!
+       Replace will regard p11832 is placed in (0, 0)
+[WARNING GPL-0001] p11836 toplevel port is not placed!
+       Replace will regard p11836 is placed in (0, 0)
+[WARNING GPL-0001] p11840 toplevel port is not placed!
+       Replace will regard p11840 is placed in (0, 0)
+[WARNING GPL-0001] p11844 toplevel port is not placed!
+       Replace will regard p11844 is placed in (0, 0)
+[WARNING GPL-0001] p11848 toplevel port is not placed!
+       Replace will regard p11848 is placed in (0, 0)
+[WARNING GPL-0001] p11852 toplevel port is not placed!
+       Replace will regard p11852 is placed in (0, 0)
+[WARNING GPL-0001] p11856 toplevel port is not placed!
+       Replace will regard p11856 is placed in (0, 0)
+[WARNING GPL-0001] p11860 toplevel port is not placed!
+       Replace will regard p11860 is placed in (0, 0)
+[WARNING GPL-0001] p11864 toplevel port is not placed!
+       Replace will regard p11864 is placed in (0, 0)
+[WARNING GPL-0001] p11868 toplevel port is not placed!
+       Replace will regard p11868 is placed in (0, 0)
+[WARNING GPL-0001] p11872 toplevel port is not placed!
+       Replace will regard p11872 is placed in (0, 0)
+[WARNING GPL-0001] p11876 toplevel port is not placed!
+       Replace will regard p11876 is placed in (0, 0)
+[WARNING GPL-0001] p11880 toplevel port is not placed!
+       Replace will regard p11880 is placed in (0, 0)
+[WARNING GPL-0001] p11884 toplevel port is not placed!
+       Replace will regard p11884 is placed in (0, 0)
+[WARNING GPL-0001] p11888 toplevel port is not placed!
+       Replace will regard p11888 is placed in (0, 0)
+[WARNING GPL-0001] p11892 toplevel port is not placed!
+       Replace will regard p11892 is placed in (0, 0)
+[WARNING GPL-0001] p11896 toplevel port is not placed!
+       Replace will regard p11896 is placed in (0, 0)
+[WARNING GPL-0001] p11900 toplevel port is not placed!
+       Replace will regard p11900 is placed in (0, 0)
+[WARNING GPL-0001] p11904 toplevel port is not placed!
+       Replace will regard p11904 is placed in (0, 0)
+[WARNING GPL-0001] p11908 toplevel port is not placed!
+       Replace will regard p11908 is placed in (0, 0)
+[WARNING GPL-0001] p11912 toplevel port is not placed!
+       Replace will regard p11912 is placed in (0, 0)
+[WARNING GPL-0001] p11916 toplevel port is not placed!
+       Replace will regard p11916 is placed in (0, 0)
+[WARNING GPL-0001] p11920 toplevel port is not placed!
+       Replace will regard p11920 is placed in (0, 0)
+[WARNING GPL-0001] p11924 toplevel port is not placed!
+       Replace will regard p11924 is placed in (0, 0)
+[WARNING GPL-0001] p11928 toplevel port is not placed!
+       Replace will regard p11928 is placed in (0, 0)
+[WARNING GPL-0001] p11932 toplevel port is not placed!
+       Replace will regard p11932 is placed in (0, 0)
+[WARNING GPL-0001] p11936 toplevel port is not placed!
+       Replace will regard p11936 is placed in (0, 0)
+[WARNING GPL-0001] p11940 toplevel port is not placed!
+       Replace will regard p11940 is placed in (0, 0)
+[WARNING GPL-0001] p11944 toplevel port is not placed!
+       Replace will regard p11944 is placed in (0, 0)
+[WARNING GPL-0001] p11948 toplevel port is not placed!
+       Replace will regard p11948 is placed in (0, 0)
+[WARNING GPL-0001] p11952 toplevel port is not placed!
+       Replace will regard p11952 is placed in (0, 0)
+[WARNING GPL-0001] p11956 toplevel port is not placed!
+       Replace will regard p11956 is placed in (0, 0)
+[WARNING GPL-0001] p11960 toplevel port is not placed!
+       Replace will regard p11960 is placed in (0, 0)
+[WARNING GPL-0001] p11964 toplevel port is not placed!
+       Replace will regard p11964 is placed in (0, 0)
+[WARNING GPL-0001] p11968 toplevel port is not placed!
+       Replace will regard p11968 is placed in (0, 0)
+[WARNING GPL-0001] p11972 toplevel port is not placed!
+       Replace will regard p11972 is placed in (0, 0)
+[WARNING GPL-0001] p11976 toplevel port is not placed!
+       Replace will regard p11976 is placed in (0, 0)
+[WARNING GPL-0001] p11980 toplevel port is not placed!
+       Replace will regard p11980 is placed in (0, 0)
+[WARNING GPL-0001] p11984 toplevel port is not placed!
+       Replace will regard p11984 is placed in (0, 0)
+[WARNING GPL-0001] p11988 toplevel port is not placed!
+       Replace will regard p11988 is placed in (0, 0)
+[WARNING GPL-0001] p11992 toplevel port is not placed!
+       Replace will regard p11992 is placed in (0, 0)
+[WARNING GPL-0001] p11996 toplevel port is not placed!
+       Replace will regard p11996 is placed in (0, 0)
+[WARNING GPL-0001] p12000 toplevel port is not placed!
+       Replace will regard p12000 is placed in (0, 0)
+[WARNING GPL-0001] p12004 toplevel port is not placed!
+       Replace will regard p12004 is placed in (0, 0)
+[WARNING GPL-0001] p12008 toplevel port is not placed!
+       Replace will regard p12008 is placed in (0, 0)
+[WARNING GPL-0001] p12012 toplevel port is not placed!
+       Replace will regard p12012 is placed in (0, 0)
+[WARNING GPL-0001] p12016 toplevel port is not placed!
+       Replace will regard p12016 is placed in (0, 0)
+[WARNING GPL-0001] p12020 toplevel port is not placed!
+       Replace will regard p12020 is placed in (0, 0)
+[WARNING GPL-0001] p12024 toplevel port is not placed!
+       Replace will regard p12024 is placed in (0, 0)
+[WARNING GPL-0001] p12028 toplevel port is not placed!
+       Replace will regard p12028 is placed in (0, 0)
+[WARNING GPL-0001] p12032 toplevel port is not placed!
+       Replace will regard p12032 is placed in (0, 0)
+[WARNING GPL-0001] p12036 toplevel port is not placed!
+       Replace will regard p12036 is placed in (0, 0)
+[WARNING GPL-0001] p12040 toplevel port is not placed!
+       Replace will regard p12040 is placed in (0, 0)
+[WARNING GPL-0001] p12044 toplevel port is not placed!
+       Replace will regard p12044 is placed in (0, 0)
+[WARNING GPL-0001] p12048 toplevel port is not placed!
+       Replace will regard p12048 is placed in (0, 0)
+[WARNING GPL-0001] p12052 toplevel port is not placed!
+       Replace will regard p12052 is placed in (0, 0)
+[WARNING GPL-0001] p12056 toplevel port is not placed!
+       Replace will regard p12056 is placed in (0, 0)
+[WARNING GPL-0001] p12060 toplevel port is not placed!
+       Replace will regard p12060 is placed in (0, 0)
+[WARNING GPL-0001] p12064 toplevel port is not placed!
+       Replace will regard p12064 is placed in (0, 0)
+[WARNING GPL-0001] p12068 toplevel port is not placed!
+       Replace will regard p12068 is placed in (0, 0)
+[WARNING GPL-0001] p12072 toplevel port is not placed!
+       Replace will regard p12072 is placed in (0, 0)
+[WARNING GPL-0001] p12076 toplevel port is not placed!
+       Replace will regard p12076 is placed in (0, 0)
+[WARNING GPL-0001] p12080 toplevel port is not placed!
+       Replace will regard p12080 is placed in (0, 0)
+[WARNING GPL-0001] p12084 toplevel port is not placed!
+       Replace will regard p12084 is placed in (0, 0)
+[WARNING GPL-0001] p12088 toplevel port is not placed!
+       Replace will regard p12088 is placed in (0, 0)
+[WARNING GPL-0001] p12092 toplevel port is not placed!
+       Replace will regard p12092 is placed in (0, 0)
+[WARNING GPL-0001] p12096 toplevel port is not placed!
+       Replace will regard p12096 is placed in (0, 0)
+[WARNING GPL-0001] p12100 toplevel port is not placed!
+       Replace will regard p12100 is placed in (0, 0)
+[WARNING GPL-0001] p12104 toplevel port is not placed!
+       Replace will regard p12104 is placed in (0, 0)
+[WARNING GPL-0001] p12108 toplevel port is not placed!
+       Replace will regard p12108 is placed in (0, 0)
+[WARNING GPL-0001] p12112 toplevel port is not placed!
+       Replace will regard p12112 is placed in (0, 0)
+[WARNING GPL-0001] p12116 toplevel port is not placed!
+       Replace will regard p12116 is placed in (0, 0)
+[WARNING GPL-0001] p12120 toplevel port is not placed!
+       Replace will regard p12120 is placed in (0, 0)
+[WARNING GPL-0001] p12124 toplevel port is not placed!
+       Replace will regard p12124 is placed in (0, 0)
+[WARNING GPL-0001] p12128 toplevel port is not placed!
+       Replace will regard p12128 is placed in (0, 0)
+[WARNING GPL-0001] p12132 toplevel port is not placed!
+       Replace will regard p12132 is placed in (0, 0)
+[WARNING GPL-0001] p12136 toplevel port is not placed!
+       Replace will regard p12136 is placed in (0, 0)
+[WARNING GPL-0001] p12140 toplevel port is not placed!
+       Replace will regard p12140 is placed in (0, 0)
+[WARNING GPL-0001] p12144 toplevel port is not placed!
+       Replace will regard p12144 is placed in (0, 0)
+[WARNING GPL-0001] p12148 toplevel port is not placed!
+       Replace will regard p12148 is placed in (0, 0)
+[WARNING GPL-0001] p12152 toplevel port is not placed!
+       Replace will regard p12152 is placed in (0, 0)
+[WARNING GPL-0001] p12156 toplevel port is not placed!
+       Replace will regard p12156 is placed in (0, 0)
+[WARNING GPL-0001] p12160 toplevel port is not placed!
+       Replace will regard p12160 is placed in (0, 0)
+[WARNING GPL-0001] p12164 toplevel port is not placed!
+       Replace will regard p12164 is placed in (0, 0)
+[WARNING GPL-0001] p12168 toplevel port is not placed!
+       Replace will regard p12168 is placed in (0, 0)
+[WARNING GPL-0001] p12172 toplevel port is not placed!
+       Replace will regard p12172 is placed in (0, 0)
+[WARNING GPL-0001] p12176 toplevel port is not placed!
+       Replace will regard p12176 is placed in (0, 0)
+[WARNING GPL-0001] p12180 toplevel port is not placed!
+       Replace will regard p12180 is placed in (0, 0)
+[WARNING GPL-0001] p12184 toplevel port is not placed!
+       Replace will regard p12184 is placed in (0, 0)
+[WARNING GPL-0001] p12188 toplevel port is not placed!
+       Replace will regard p12188 is placed in (0, 0)
+[WARNING GPL-0001] p12192 toplevel port is not placed!
+       Replace will regard p12192 is placed in (0, 0)
+[WARNING GPL-0001] p12196 toplevel port is not placed!
+       Replace will regard p12196 is placed in (0, 0)
+[WARNING GPL-0001] p12200 toplevel port is not placed!
+       Replace will regard p12200 is placed in (0, 0)
+[WARNING GPL-0001] p12204 toplevel port is not placed!
+       Replace will regard p12204 is placed in (0, 0)
+[WARNING GPL-0001] p12208 toplevel port is not placed!
+       Replace will regard p12208 is placed in (0, 0)
+[WARNING GPL-0001] p12212 toplevel port is not placed!
+       Replace will regard p12212 is placed in (0, 0)
+[WARNING GPL-0001] p12216 toplevel port is not placed!
+       Replace will regard p12216 is placed in (0, 0)
+[WARNING GPL-0001] p12220 toplevel port is not placed!
+       Replace will regard p12220 is placed in (0, 0)
+[WARNING GPL-0001] p12224 toplevel port is not placed!
+       Replace will regard p12224 is placed in (0, 0)
+[WARNING GPL-0001] p12228 toplevel port is not placed!
+       Replace will regard p12228 is placed in (0, 0)
+[WARNING GPL-0001] p12232 toplevel port is not placed!
+       Replace will regard p12232 is placed in (0, 0)
+[WARNING GPL-0001] p12236 toplevel port is not placed!
+       Replace will regard p12236 is placed in (0, 0)
+[WARNING GPL-0001] p12240 toplevel port is not placed!
+       Replace will regard p12240 is placed in (0, 0)
+[WARNING GPL-0001] p12244 toplevel port is not placed!
+       Replace will regard p12244 is placed in (0, 0)
+[WARNING GPL-0001] p12248 toplevel port is not placed!
+       Replace will regard p12248 is placed in (0, 0)
+[WARNING GPL-0001] p12252 toplevel port is not placed!
+       Replace will regard p12252 is placed in (0, 0)
+[WARNING GPL-0001] p12256 toplevel port is not placed!
+       Replace will regard p12256 is placed in (0, 0)
+[WARNING GPL-0001] p12260 toplevel port is not placed!
+       Replace will regard p12260 is placed in (0, 0)
+[WARNING GPL-0001] p12264 toplevel port is not placed!
+       Replace will regard p12264 is placed in (0, 0)
+[WARNING GPL-0001] p12268 toplevel port is not placed!
+       Replace will regard p12268 is placed in (0, 0)
+[WARNING GPL-0001] p12272 toplevel port is not placed!
+       Replace will regard p12272 is placed in (0, 0)
+[WARNING GPL-0001] p12276 toplevel port is not placed!
+       Replace will regard p12276 is placed in (0, 0)
+[WARNING GPL-0001] p12280 toplevel port is not placed!
+       Replace will regard p12280 is placed in (0, 0)
+[WARNING GPL-0001] p12284 toplevel port is not placed!
+       Replace will regard p12284 is placed in (0, 0)
+[WARNING GPL-0001] p12288 toplevel port is not placed!
+       Replace will regard p12288 is placed in (0, 0)
+[WARNING GPL-0001] p12292 toplevel port is not placed!
+       Replace will regard p12292 is placed in (0, 0)
+[WARNING GPL-0001] p12296 toplevel port is not placed!
+       Replace will regard p12296 is placed in (0, 0)
+[WARNING GPL-0001] p12300 toplevel port is not placed!
+       Replace will regard p12300 is placed in (0, 0)
+[WARNING GPL-0001] p12304 toplevel port is not placed!
+       Replace will regard p12304 is placed in (0, 0)
+[WARNING GPL-0001] p12308 toplevel port is not placed!
+       Replace will regard p12308 is placed in (0, 0)
+[WARNING GPL-0001] p12312 toplevel port is not placed!
+       Replace will regard p12312 is placed in (0, 0)
+[WARNING GPL-0001] p12316 toplevel port is not placed!
+       Replace will regard p12316 is placed in (0, 0)
+[WARNING GPL-0001] p12320 toplevel port is not placed!
+       Replace will regard p12320 is placed in (0, 0)
+[WARNING GPL-0001] p12324 toplevel port is not placed!
+       Replace will regard p12324 is placed in (0, 0)
+[WARNING GPL-0001] p12328 toplevel port is not placed!
+       Replace will regard p12328 is placed in (0, 0)
+[WARNING GPL-0001] p12332 toplevel port is not placed!
+       Replace will regard p12332 is placed in (0, 0)
+[WARNING GPL-0001] p12336 toplevel port is not placed!
+       Replace will regard p12336 is placed in (0, 0)
+[WARNING GPL-0001] p12340 toplevel port is not placed!
+       Replace will regard p12340 is placed in (0, 0)
+[WARNING GPL-0001] p12344 toplevel port is not placed!
+       Replace will regard p12344 is placed in (0, 0)
+[WARNING GPL-0001] p12348 toplevel port is not placed!
+       Replace will regard p12348 is placed in (0, 0)
+[WARNING GPL-0001] p12352 toplevel port is not placed!
+       Replace will regard p12352 is placed in (0, 0)
+[WARNING GPL-0001] p12356 toplevel port is not placed!
+       Replace will regard p12356 is placed in (0, 0)
+[WARNING GPL-0001] p12360 toplevel port is not placed!
+       Replace will regard p12360 is placed in (0, 0)
+[WARNING GPL-0001] p12364 toplevel port is not placed!
+       Replace will regard p12364 is placed in (0, 0)
+[WARNING GPL-0001] p12368 toplevel port is not placed!
+       Replace will regard p12368 is placed in (0, 0)
+[WARNING GPL-0001] p12372 toplevel port is not placed!
+       Replace will regard p12372 is placed in (0, 0)
+[WARNING GPL-0001] p12376 toplevel port is not placed!
+       Replace will regard p12376 is placed in (0, 0)
+[WARNING GPL-0001] p12380 toplevel port is not placed!
+       Replace will regard p12380 is placed in (0, 0)
+[WARNING GPL-0001] p12384 toplevel port is not placed!
+       Replace will regard p12384 is placed in (0, 0)
+[WARNING GPL-0001] p12388 toplevel port is not placed!
+       Replace will regard p12388 is placed in (0, 0)
+[WARNING GPL-0001] p12392 toplevel port is not placed!
+       Replace will regard p12392 is placed in (0, 0)
+[WARNING GPL-0001] p12396 toplevel port is not placed!
+       Replace will regard p12396 is placed in (0, 0)
+[WARNING GPL-0001] p12400 toplevel port is not placed!
+       Replace will regard p12400 is placed in (0, 0)
+[WARNING GPL-0001] p12404 toplevel port is not placed!
+       Replace will regard p12404 is placed in (0, 0)
+[WARNING GPL-0001] p12408 toplevel port is not placed!
+       Replace will regard p12408 is placed in (0, 0)
+[WARNING GPL-0001] p12412 toplevel port is not placed!
+       Replace will regard p12412 is placed in (0, 0)
+[WARNING GPL-0001] p12416 toplevel port is not placed!
+       Replace will regard p12416 is placed in (0, 0)
+[WARNING GPL-0001] p12420 toplevel port is not placed!
+       Replace will regard p12420 is placed in (0, 0)
+[WARNING GPL-0001] p12424 toplevel port is not placed!
+       Replace will regard p12424 is placed in (0, 0)
+[WARNING GPL-0001] p12428 toplevel port is not placed!
+       Replace will regard p12428 is placed in (0, 0)
+[WARNING GPL-0001] p12432 toplevel port is not placed!
+       Replace will regard p12432 is placed in (0, 0)
+[WARNING GPL-0001] p12436 toplevel port is not placed!
+       Replace will regard p12436 is placed in (0, 0)
+[WARNING GPL-0001] p12440 toplevel port is not placed!
+       Replace will regard p12440 is placed in (0, 0)
+[WARNING GPL-0001] p12444 toplevel port is not placed!
+       Replace will regard p12444 is placed in (0, 0)
+[WARNING GPL-0001] p12448 toplevel port is not placed!
+       Replace will regard p12448 is placed in (0, 0)
+[WARNING GPL-0001] p12452 toplevel port is not placed!
+       Replace will regard p12452 is placed in (0, 0)
+[WARNING GPL-0001] p12456 toplevel port is not placed!
+       Replace will regard p12456 is placed in (0, 0)
+[WARNING GPL-0001] p12460 toplevel port is not placed!
+       Replace will regard p12460 is placed in (0, 0)
+[WARNING GPL-0001] p12464 toplevel port is not placed!
+       Replace will regard p12464 is placed in (0, 0)
+[WARNING GPL-0001] p12468 toplevel port is not placed!
+       Replace will regard p12468 is placed in (0, 0)
+[WARNING GPL-0001] p12472 toplevel port is not placed!
+       Replace will regard p12472 is placed in (0, 0)
+[WARNING GPL-0001] p12476 toplevel port is not placed!
+       Replace will regard p12476 is placed in (0, 0)
+[WARNING GPL-0001] p12480 toplevel port is not placed!
+       Replace will regard p12480 is placed in (0, 0)
+[WARNING GPL-0001] p12484 toplevel port is not placed!
+       Replace will regard p12484 is placed in (0, 0)
+[WARNING GPL-0001] p12488 toplevel port is not placed!
+       Replace will regard p12488 is placed in (0, 0)
+[WARNING GPL-0001] p12492 toplevel port is not placed!
+       Replace will regard p12492 is placed in (0, 0)
+[WARNING GPL-0001] p12496 toplevel port is not placed!
+       Replace will regard p12496 is placed in (0, 0)
+[WARNING GPL-0001] p12500 toplevel port is not placed!
+       Replace will regard p12500 is placed in (0, 0)
+[WARNING GPL-0001] p12504 toplevel port is not placed!
+       Replace will regard p12504 is placed in (0, 0)
+[WARNING GPL-0001] p12508 toplevel port is not placed!
+       Replace will regard p12508 is placed in (0, 0)
+[WARNING GPL-0001] p12512 toplevel port is not placed!
+       Replace will regard p12512 is placed in (0, 0)
+[WARNING GPL-0001] p12516 toplevel port is not placed!
+       Replace will regard p12516 is placed in (0, 0)
+[WARNING GPL-0001] p12520 toplevel port is not placed!
+       Replace will regard p12520 is placed in (0, 0)
+[WARNING GPL-0001] p12524 toplevel port is not placed!
+       Replace will regard p12524 is placed in (0, 0)
+[WARNING GPL-0001] p12528 toplevel port is not placed!
+       Replace will regard p12528 is placed in (0, 0)
+[WARNING GPL-0001] p12532 toplevel port is not placed!
+       Replace will regard p12532 is placed in (0, 0)
+[WARNING GPL-0001] p12536 toplevel port is not placed!
+       Replace will regard p12536 is placed in (0, 0)
+[WARNING GPL-0001] p12540 toplevel port is not placed!
+       Replace will regard p12540 is placed in (0, 0)
+[WARNING GPL-0001] p12544 toplevel port is not placed!
+       Replace will regard p12544 is placed in (0, 0)
+[WARNING GPL-0001] p12548 toplevel port is not placed!
+       Replace will regard p12548 is placed in (0, 0)
+[WARNING GPL-0001] p12552 toplevel port is not placed!
+       Replace will regard p12552 is placed in (0, 0)
+[WARNING GPL-0001] p12556 toplevel port is not placed!
+       Replace will regard p12556 is placed in (0, 0)
+[WARNING GPL-0001] p12560 toplevel port is not placed!
+       Replace will regard p12560 is placed in (0, 0)
+[WARNING GPL-0001] p12564 toplevel port is not placed!
+       Replace will regard p12564 is placed in (0, 0)
+[WARNING GPL-0001] p12568 toplevel port is not placed!
+       Replace will regard p12568 is placed in (0, 0)
+[WARNING GPL-0001] p12572 toplevel port is not placed!
+       Replace will regard p12572 is placed in (0, 0)
+[WARNING GPL-0001] p12576 toplevel port is not placed!
+       Replace will regard p12576 is placed in (0, 0)
+[WARNING GPL-0001] p12580 toplevel port is not placed!
+       Replace will regard p12580 is placed in (0, 0)
+[WARNING GPL-0001] p12584 toplevel port is not placed!
+       Replace will regard p12584 is placed in (0, 0)
+[WARNING GPL-0001] p12588 toplevel port is not placed!
+       Replace will regard p12588 is placed in (0, 0)
+[WARNING GPL-0001] p12592 toplevel port is not placed!
+       Replace will regard p12592 is placed in (0, 0)
+[WARNING GPL-0001] p12596 toplevel port is not placed!
+       Replace will regard p12596 is placed in (0, 0)
+[WARNING GPL-0001] p12600 toplevel port is not placed!
+       Replace will regard p12600 is placed in (0, 0)
+[WARNING GPL-0001] p12604 toplevel port is not placed!
+       Replace will regard p12604 is placed in (0, 0)
+[WARNING GPL-0001] p12608 toplevel port is not placed!
+       Replace will regard p12608 is placed in (0, 0)
+[WARNING GPL-0001] p12612 toplevel port is not placed!
+       Replace will regard p12612 is placed in (0, 0)
+[WARNING GPL-0001] p12616 toplevel port is not placed!
+       Replace will regard p12616 is placed in (0, 0)
+[WARNING GPL-0001] p12620 toplevel port is not placed!
+       Replace will regard p12620 is placed in (0, 0)
+[WARNING GPL-0001] p12624 toplevel port is not placed!
+       Replace will regard p12624 is placed in (0, 0)
+[WARNING GPL-0001] p12628 toplevel port is not placed!
+       Replace will regard p12628 is placed in (0, 0)
+[WARNING GPL-0001] p12632 toplevel port is not placed!
+       Replace will regard p12632 is placed in (0, 0)
+[WARNING GPL-0001] p12636 toplevel port is not placed!
+       Replace will regard p12636 is placed in (0, 0)
+[WARNING GPL-0001] p12640 toplevel port is not placed!
+       Replace will regard p12640 is placed in (0, 0)
+[WARNING GPL-0001] p12644 toplevel port is not placed!
+       Replace will regard p12644 is placed in (0, 0)
+[WARNING GPL-0001] p12648 toplevel port is not placed!
+       Replace will regard p12648 is placed in (0, 0)
+[WARNING GPL-0001] p12652 toplevel port is not placed!
+       Replace will regard p12652 is placed in (0, 0)
+[WARNING GPL-0001] p12656 toplevel port is not placed!
+       Replace will regard p12656 is placed in (0, 0)
+[WARNING GPL-0001] p12660 toplevel port is not placed!
+       Replace will regard p12660 is placed in (0, 0)
+[WARNING GPL-0001] p12664 toplevel port is not placed!
+       Replace will regard p12664 is placed in (0, 0)
+[WARNING GPL-0001] p12668 toplevel port is not placed!
+       Replace will regard p12668 is placed in (0, 0)
+[WARNING GPL-0001] p12672 toplevel port is not placed!
+       Replace will regard p12672 is placed in (0, 0)
+[WARNING GPL-0001] p12676 toplevel port is not placed!
+       Replace will regard p12676 is placed in (0, 0)
+[WARNING GPL-0001] p12680 toplevel port is not placed!
+       Replace will regard p12680 is placed in (0, 0)
+[WARNING GPL-0001] p12684 toplevel port is not placed!
+       Replace will regard p12684 is placed in (0, 0)
+[WARNING GPL-0001] p12688 toplevel port is not placed!
+       Replace will regard p12688 is placed in (0, 0)
+[WARNING GPL-0001] p12692 toplevel port is not placed!
+       Replace will regard p12692 is placed in (0, 0)
+[WARNING GPL-0001] p12696 toplevel port is not placed!
+       Replace will regard p12696 is placed in (0, 0)
+[WARNING GPL-0001] p12700 toplevel port is not placed!
+       Replace will regard p12700 is placed in (0, 0)
+[WARNING GPL-0001] p12704 toplevel port is not placed!
+       Replace will regard p12704 is placed in (0, 0)
+[WARNING GPL-0001] p12708 toplevel port is not placed!
+       Replace will regard p12708 is placed in (0, 0)
+[WARNING GPL-0001] p12712 toplevel port is not placed!
+       Replace will regard p12712 is placed in (0, 0)
+[WARNING GPL-0001] p12716 toplevel port is not placed!
+       Replace will regard p12716 is placed in (0, 0)
+[WARNING GPL-0001] p12720 toplevel port is not placed!
+       Replace will regard p12720 is placed in (0, 0)
+[WARNING GPL-0001] p12724 toplevel port is not placed!
+       Replace will regard p12724 is placed in (0, 0)
+[WARNING GPL-0001] p12728 toplevel port is not placed!
+       Replace will regard p12728 is placed in (0, 0)
+[WARNING GPL-0001] p12732 toplevel port is not placed!
+       Replace will regard p12732 is placed in (0, 0)
+[WARNING GPL-0001] p12736 toplevel port is not placed!
+       Replace will regard p12736 is placed in (0, 0)
+[WARNING GPL-0001] p12740 toplevel port is not placed!
+       Replace will regard p12740 is placed in (0, 0)
+[WARNING GPL-0001] p12744 toplevel port is not placed!
+       Replace will regard p12744 is placed in (0, 0)
+[WARNING GPL-0001] p12748 toplevel port is not placed!
+       Replace will regard p12748 is placed in (0, 0)
+[WARNING GPL-0001] p12752 toplevel port is not placed!
+       Replace will regard p12752 is placed in (0, 0)
+[WARNING GPL-0001] p12756 toplevel port is not placed!
+       Replace will regard p12756 is placed in (0, 0)
+[WARNING GPL-0001] p12760 toplevel port is not placed!
+       Replace will regard p12760 is placed in (0, 0)
+[WARNING GPL-0001] p12764 toplevel port is not placed!
+       Replace will regard p12764 is placed in (0, 0)
+[WARNING GPL-0001] p12768 toplevel port is not placed!
+       Replace will regard p12768 is placed in (0, 0)
+[WARNING GPL-0001] p12772 toplevel port is not placed!
+       Replace will regard p12772 is placed in (0, 0)
+[WARNING GPL-0001] p12776 toplevel port is not placed!
+       Replace will regard p12776 is placed in (0, 0)
+[WARNING GPL-0001] p12780 toplevel port is not placed!
+       Replace will regard p12780 is placed in (0, 0)
+[WARNING GPL-0001] p12784 toplevel port is not placed!
+       Replace will regard p12784 is placed in (0, 0)
+[WARNING GPL-0001] p12788 toplevel port is not placed!
+       Replace will regard p12788 is placed in (0, 0)
+[WARNING GPL-0001] p12792 toplevel port is not placed!
+       Replace will regard p12792 is placed in (0, 0)
+[WARNING GPL-0001] p12796 toplevel port is not placed!
+       Replace will regard p12796 is placed in (0, 0)
+[WARNING GPL-0001] p12800 toplevel port is not placed!
+       Replace will regard p12800 is placed in (0, 0)
+[WARNING GPL-0001] p12804 toplevel port is not placed!
+       Replace will regard p12804 is placed in (0, 0)
+[WARNING GPL-0001] p12808 toplevel port is not placed!
+       Replace will regard p12808 is placed in (0, 0)
+[WARNING GPL-0001] p12812 toplevel port is not placed!
+       Replace will regard p12812 is placed in (0, 0)
+[WARNING GPL-0001] p12816 toplevel port is not placed!
+       Replace will regard p12816 is placed in (0, 0)
+[WARNING GPL-0001] p12820 toplevel port is not placed!
+       Replace will regard p12820 is placed in (0, 0)
+[WARNING GPL-0001] p12824 toplevel port is not placed!
+       Replace will regard p12824 is placed in (0, 0)
+[WARNING GPL-0001] p12828 toplevel port is not placed!
+       Replace will regard p12828 is placed in (0, 0)
+[WARNING GPL-0001] p12832 toplevel port is not placed!
+       Replace will regard p12832 is placed in (0, 0)
+[WARNING GPL-0001] p12836 toplevel port is not placed!
+       Replace will regard p12836 is placed in (0, 0)
+[WARNING GPL-0001] p12840 toplevel port is not placed!
+       Replace will regard p12840 is placed in (0, 0)
+[WARNING GPL-0001] p12844 toplevel port is not placed!
+       Replace will regard p12844 is placed in (0, 0)
+[WARNING GPL-0001] p12848 toplevel port is not placed!
+       Replace will regard p12848 is placed in (0, 0)
+[WARNING GPL-0001] p12852 toplevel port is not placed!
+       Replace will regard p12852 is placed in (0, 0)
+[WARNING GPL-0001] p12856 toplevel port is not placed!
+       Replace will regard p12856 is placed in (0, 0)
+[WARNING GPL-0001] p12860 toplevel port is not placed!
+       Replace will regard p12860 is placed in (0, 0)
+[WARNING GPL-0001] p12864 toplevel port is not placed!
+       Replace will regard p12864 is placed in (0, 0)
+[WARNING GPL-0001] p12868 toplevel port is not placed!
+       Replace will regard p12868 is placed in (0, 0)
+[WARNING GPL-0001] p12872 toplevel port is not placed!
+       Replace will regard p12872 is placed in (0, 0)
+[WARNING GPL-0001] p12876 toplevel port is not placed!
+       Replace will regard p12876 is placed in (0, 0)
+[WARNING GPL-0001] p12880 toplevel port is not placed!
+       Replace will regard p12880 is placed in (0, 0)
+[WARNING GPL-0001] p12884 toplevel port is not placed!
+       Replace will regard p12884 is placed in (0, 0)
+[WARNING GPL-0001] p12888 toplevel port is not placed!
+       Replace will regard p12888 is placed in (0, 0)
+[WARNING GPL-0001] p12892 toplevel port is not placed!
+       Replace will regard p12892 is placed in (0, 0)
+[WARNING GPL-0001] p12896 toplevel port is not placed!
+       Replace will regard p12896 is placed in (0, 0)
+[WARNING GPL-0001] p12900 toplevel port is not placed!
+       Replace will regard p12900 is placed in (0, 0)
+[WARNING GPL-0001] p12904 toplevel port is not placed!
+       Replace will regard p12904 is placed in (0, 0)
+[WARNING GPL-0001] p12908 toplevel port is not placed!
+       Replace will regard p12908 is placed in (0, 0)
+[WARNING GPL-0001] p12912 toplevel port is not placed!
+       Replace will regard p12912 is placed in (0, 0)
+[WARNING GPL-0001] p12916 toplevel port is not placed!
+       Replace will regard p12916 is placed in (0, 0)
+[WARNING GPL-0001] p12920 toplevel port is not placed!
+       Replace will regard p12920 is placed in (0, 0)
+[WARNING GPL-0001] p12924 toplevel port is not placed!
+       Replace will regard p12924 is placed in (0, 0)
+[WARNING GPL-0001] p12928 toplevel port is not placed!
+       Replace will regard p12928 is placed in (0, 0)
+[WARNING GPL-0001] p12932 toplevel port is not placed!
+       Replace will regard p12932 is placed in (0, 0)
+[WARNING GPL-0001] p12936 toplevel port is not placed!
+       Replace will regard p12936 is placed in (0, 0)
+[WARNING GPL-0001] p12940 toplevel port is not placed!
+       Replace will regard p12940 is placed in (0, 0)
+[WARNING GPL-0001] p12944 toplevel port is not placed!
+       Replace will regard p12944 is placed in (0, 0)
+[WARNING GPL-0001] p12948 toplevel port is not placed!
+       Replace will regard p12948 is placed in (0, 0)
+[WARNING GPL-0001] p12952 toplevel port is not placed!
+       Replace will regard p12952 is placed in (0, 0)
+[WARNING GPL-0001] p12956 toplevel port is not placed!
+       Replace will regard p12956 is placed in (0, 0)
+[WARNING GPL-0001] p12960 toplevel port is not placed!
+       Replace will regard p12960 is placed in (0, 0)
+[WARNING GPL-0001] p12964 toplevel port is not placed!
+       Replace will regard p12964 is placed in (0, 0)
+[WARNING GPL-0001] p12968 toplevel port is not placed!
+       Replace will regard p12968 is placed in (0, 0)
+[WARNING GPL-0001] p12972 toplevel port is not placed!
+       Replace will regard p12972 is placed in (0, 0)
+[WARNING GPL-0001] p12976 toplevel port is not placed!
+       Replace will regard p12976 is placed in (0, 0)
+[WARNING GPL-0001] p12980 toplevel port is not placed!
+       Replace will regard p12980 is placed in (0, 0)
+[WARNING GPL-0001] p12984 toplevel port is not placed!
+       Replace will regard p12984 is placed in (0, 0)
+[WARNING GPL-0001] p12988 toplevel port is not placed!
+       Replace will regard p12988 is placed in (0, 0)
+[WARNING GPL-0001] p12992 toplevel port is not placed!
+       Replace will regard p12992 is placed in (0, 0)
+[WARNING GPL-0001] p12996 toplevel port is not placed!
+       Replace will regard p12996 is placed in (0, 0)
+[WARNING GPL-0001] p13000 toplevel port is not placed!
+       Replace will regard p13000 is placed in (0, 0)
+[WARNING GPL-0001] p13004 toplevel port is not placed!
+       Replace will regard p13004 is placed in (0, 0)
+[WARNING GPL-0001] p13008 toplevel port is not placed!
+       Replace will regard p13008 is placed in (0, 0)
+[WARNING GPL-0001] p13012 toplevel port is not placed!
+       Replace will regard p13012 is placed in (0, 0)
+[WARNING GPL-0001] p13016 toplevel port is not placed!
+       Replace will regard p13016 is placed in (0, 0)
+[WARNING GPL-0001] p13020 toplevel port is not placed!
+       Replace will regard p13020 is placed in (0, 0)
+[WARNING GPL-0001] p13024 toplevel port is not placed!
+       Replace will regard p13024 is placed in (0, 0)
+[WARNING GPL-0001] p13028 toplevel port is not placed!
+       Replace will regard p13028 is placed in (0, 0)
+[WARNING GPL-0001] p13032 toplevel port is not placed!
+       Replace will regard p13032 is placed in (0, 0)
+[WARNING GPL-0001] p13036 toplevel port is not placed!
+       Replace will regard p13036 is placed in (0, 0)
+[WARNING GPL-0001] p13040 toplevel port is not placed!
+       Replace will regard p13040 is placed in (0, 0)
+[WARNING GPL-0001] p13044 toplevel port is not placed!
+       Replace will regard p13044 is placed in (0, 0)
+[WARNING GPL-0001] p13048 toplevel port is not placed!
+       Replace will regard p13048 is placed in (0, 0)
+[WARNING GPL-0001] p13052 toplevel port is not placed!
+       Replace will regard p13052 is placed in (0, 0)
+[WARNING GPL-0001] p13056 toplevel port is not placed!
+       Replace will regard p13056 is placed in (0, 0)
+[WARNING GPL-0001] p13060 toplevel port is not placed!
+       Replace will regard p13060 is placed in (0, 0)
+[WARNING GPL-0001] p13064 toplevel port is not placed!
+       Replace will regard p13064 is placed in (0, 0)
+[WARNING GPL-0001] p13068 toplevel port is not placed!
+       Replace will regard p13068 is placed in (0, 0)
+[WARNING GPL-0001] p13072 toplevel port is not placed!
+       Replace will regard p13072 is placed in (0, 0)
+[WARNING GPL-0001] p13076 toplevel port is not placed!
+       Replace will regard p13076 is placed in (0, 0)
+[WARNING GPL-0001] p13080 toplevel port is not placed!
+       Replace will regard p13080 is placed in (0, 0)
+[WARNING GPL-0001] p13084 toplevel port is not placed!
+       Replace will regard p13084 is placed in (0, 0)
+[WARNING GPL-0001] p13088 toplevel port is not placed!
+       Replace will regard p13088 is placed in (0, 0)
+[WARNING GPL-0001] p13092 toplevel port is not placed!
+       Replace will regard p13092 is placed in (0, 0)
+[WARNING GPL-0001] p13096 toplevel port is not placed!
+       Replace will regard p13096 is placed in (0, 0)
+[WARNING GPL-0001] p13100 toplevel port is not placed!
+       Replace will regard p13100 is placed in (0, 0)
+[WARNING GPL-0001] p13104 toplevel port is not placed!
+       Replace will regard p13104 is placed in (0, 0)
+[WARNING GPL-0001] p13108 toplevel port is not placed!
+       Replace will regard p13108 is placed in (0, 0)
+[WARNING GPL-0001] p13112 toplevel port is not placed!
+       Replace will regard p13112 is placed in (0, 0)
+[WARNING GPL-0001] p13116 toplevel port is not placed!
+       Replace will regard p13116 is placed in (0, 0)
+[WARNING GPL-0001] p13120 toplevel port is not placed!
+       Replace will regard p13120 is placed in (0, 0)
+[WARNING GPL-0001] p13124 toplevel port is not placed!
+       Replace will regard p13124 is placed in (0, 0)
+[WARNING GPL-0001] p13128 toplevel port is not placed!
+       Replace will regard p13128 is placed in (0, 0)
+[WARNING GPL-0001] p13132 toplevel port is not placed!
+       Replace will regard p13132 is placed in (0, 0)
+[WARNING GPL-0001] p13136 toplevel port is not placed!
+       Replace will regard p13136 is placed in (0, 0)
+[WARNING GPL-0001] p13140 toplevel port is not placed!
+       Replace will regard p13140 is placed in (0, 0)
+[WARNING GPL-0001] p13144 toplevel port is not placed!
+       Replace will regard p13144 is placed in (0, 0)
+[WARNING GPL-0001] p13148 toplevel port is not placed!
+       Replace will regard p13148 is placed in (0, 0)
+[WARNING GPL-0001] p13152 toplevel port is not placed!
+       Replace will regard p13152 is placed in (0, 0)
+[WARNING GPL-0001] p13156 toplevel port is not placed!
+       Replace will regard p13156 is placed in (0, 0)
+[WARNING GPL-0001] p13160 toplevel port is not placed!
+       Replace will regard p13160 is placed in (0, 0)
+[WARNING GPL-0001] p13164 toplevel port is not placed!
+       Replace will regard p13164 is placed in (0, 0)
+[WARNING GPL-0001] p13168 toplevel port is not placed!
+       Replace will regard p13168 is placed in (0, 0)
+[WARNING GPL-0001] p13172 toplevel port is not placed!
+       Replace will regard p13172 is placed in (0, 0)
+[WARNING GPL-0001] p13176 toplevel port is not placed!
+       Replace will regard p13176 is placed in (0, 0)
+[WARNING GPL-0001] p13180 toplevel port is not placed!
+       Replace will regard p13180 is placed in (0, 0)
+[WARNING GPL-0001] p13184 toplevel port is not placed!
+       Replace will regard p13184 is placed in (0, 0)
+[WARNING GPL-0001] p13188 toplevel port is not placed!
+       Replace will regard p13188 is placed in (0, 0)
+[WARNING GPL-0001] p13192 toplevel port is not placed!
+       Replace will regard p13192 is placed in (0, 0)
+[WARNING GPL-0001] p13196 toplevel port is not placed!
+       Replace will regard p13196 is placed in (0, 0)
+[WARNING GPL-0001] p13200 toplevel port is not placed!
+       Replace will regard p13200 is placed in (0, 0)
+[WARNING GPL-0001] p13204 toplevel port is not placed!
+       Replace will regard p13204 is placed in (0, 0)
+[WARNING GPL-0001] p13208 toplevel port is not placed!
+       Replace will regard p13208 is placed in (0, 0)
+[WARNING GPL-0001] p13212 toplevel port is not placed!
+       Replace will regard p13212 is placed in (0, 0)
+[WARNING GPL-0001] p13216 toplevel port is not placed!
+       Replace will regard p13216 is placed in (0, 0)
+[WARNING GPL-0001] p13220 toplevel port is not placed!
+       Replace will regard p13220 is placed in (0, 0)
+[WARNING GPL-0001] p13224 toplevel port is not placed!
+       Replace will regard p13224 is placed in (0, 0)
+[WARNING GPL-0001] p13228 toplevel port is not placed!
+       Replace will regard p13228 is placed in (0, 0)
+[WARNING GPL-0001] p13232 toplevel port is not placed!
+       Replace will regard p13232 is placed in (0, 0)
+[WARNING GPL-0001] p13236 toplevel port is not placed!
+       Replace will regard p13236 is placed in (0, 0)
+[WARNING GPL-0001] p13240 toplevel port is not placed!
+       Replace will regard p13240 is placed in (0, 0)
+[WARNING GPL-0001] p13244 toplevel port is not placed!
+       Replace will regard p13244 is placed in (0, 0)
+[WARNING GPL-0001] p13248 toplevel port is not placed!
+       Replace will regard p13248 is placed in (0, 0)
+[WARNING GPL-0001] p13252 toplevel port is not placed!
+       Replace will regard p13252 is placed in (0, 0)
+[WARNING GPL-0001] p13256 toplevel port is not placed!
+       Replace will regard p13256 is placed in (0, 0)
+[WARNING GPL-0001] p13260 toplevel port is not placed!
+       Replace will regard p13260 is placed in (0, 0)
+[WARNING GPL-0001] p13264 toplevel port is not placed!
+       Replace will regard p13264 is placed in (0, 0)
+[WARNING GPL-0001] p13268 toplevel port is not placed!
+       Replace will regard p13268 is placed in (0, 0)
+[WARNING GPL-0001] p13272 toplevel port is not placed!
+       Replace will regard p13272 is placed in (0, 0)
+[WARNING GPL-0001] p13276 toplevel port is not placed!
+       Replace will regard p13276 is placed in (0, 0)
+[WARNING GPL-0001] p13280 toplevel port is not placed!
+       Replace will regard p13280 is placed in (0, 0)
+[WARNING GPL-0001] p13284 toplevel port is not placed!
+       Replace will regard p13284 is placed in (0, 0)
+[WARNING GPL-0001] p13288 toplevel port is not placed!
+       Replace will regard p13288 is placed in (0, 0)
+[WARNING GPL-0001] p13292 toplevel port is not placed!
+       Replace will regard p13292 is placed in (0, 0)
+[WARNING GPL-0001] p13296 toplevel port is not placed!
+       Replace will regard p13296 is placed in (0, 0)
+[WARNING GPL-0001] p13300 toplevel port is not placed!
+       Replace will regard p13300 is placed in (0, 0)
+[WARNING GPL-0001] p13304 toplevel port is not placed!
+       Replace will regard p13304 is placed in (0, 0)
+[WARNING GPL-0001] p13308 toplevel port is not placed!
+       Replace will regard p13308 is placed in (0, 0)
+[WARNING GPL-0001] p13312 toplevel port is not placed!
+       Replace will regard p13312 is placed in (0, 0)
+[WARNING GPL-0001] p13316 toplevel port is not placed!
+       Replace will regard p13316 is placed in (0, 0)
+[WARNING GPL-0001] p13320 toplevel port is not placed!
+       Replace will regard p13320 is placed in (0, 0)
+[WARNING GPL-0001] p13324 toplevel port is not placed!
+       Replace will regard p13324 is placed in (0, 0)
+[WARNING GPL-0001] p13328 toplevel port is not placed!
+       Replace will regard p13328 is placed in (0, 0)
+[WARNING GPL-0001] p13332 toplevel port is not placed!
+       Replace will regard p13332 is placed in (0, 0)
+[WARNING GPL-0001] p13336 toplevel port is not placed!
+       Replace will regard p13336 is placed in (0, 0)
+[WARNING GPL-0001] p13340 toplevel port is not placed!
+       Replace will regard p13340 is placed in (0, 0)
+[WARNING GPL-0001] p13344 toplevel port is not placed!
+       Replace will regard p13344 is placed in (0, 0)
+[WARNING GPL-0001] p13348 toplevel port is not placed!
+       Replace will regard p13348 is placed in (0, 0)
+[WARNING GPL-0001] p13352 toplevel port is not placed!
+       Replace will regard p13352 is placed in (0, 0)
+[WARNING GPL-0001] p13356 toplevel port is not placed!
+       Replace will regard p13356 is placed in (0, 0)
+[WARNING GPL-0001] p13360 toplevel port is not placed!
+       Replace will regard p13360 is placed in (0, 0)
+[WARNING GPL-0001] p13364 toplevel port is not placed!
+       Replace will regard p13364 is placed in (0, 0)
+[WARNING GPL-0001] p13368 toplevel port is not placed!
+       Replace will regard p13368 is placed in (0, 0)
+[WARNING GPL-0001] p13372 toplevel port is not placed!
+       Replace will regard p13372 is placed in (0, 0)
+[WARNING GPL-0001] p13376 toplevel port is not placed!
+       Replace will regard p13376 is placed in (0, 0)
+[WARNING GPL-0001] p13380 toplevel port is not placed!
+       Replace will regard p13380 is placed in (0, 0)
+[WARNING GPL-0001] p13384 toplevel port is not placed!
+       Replace will regard p13384 is placed in (0, 0)
+[WARNING GPL-0001] p13388 toplevel port is not placed!
+       Replace will regard p13388 is placed in (0, 0)
+[WARNING GPL-0001] p13392 toplevel port is not placed!
+       Replace will regard p13392 is placed in (0, 0)
+[WARNING GPL-0001] p13396 toplevel port is not placed!
+       Replace will regard p13396 is placed in (0, 0)
+[WARNING GPL-0001] p13400 toplevel port is not placed!
+       Replace will regard p13400 is placed in (0, 0)
+[WARNING GPL-0001] p13404 toplevel port is not placed!
+       Replace will regard p13404 is placed in (0, 0)
+[WARNING GPL-0001] p13408 toplevel port is not placed!
+       Replace will regard p13408 is placed in (0, 0)
+[WARNING GPL-0001] p13412 toplevel port is not placed!
+       Replace will regard p13412 is placed in (0, 0)
+[WARNING GPL-0001] p13416 toplevel port is not placed!
+       Replace will regard p13416 is placed in (0, 0)
+[WARNING GPL-0001] p13420 toplevel port is not placed!
+       Replace will regard p13420 is placed in (0, 0)
+[WARNING GPL-0001] p13424 toplevel port is not placed!
+       Replace will regard p13424 is placed in (0, 0)
+[WARNING GPL-0001] p13428 toplevel port is not placed!
+       Replace will regard p13428 is placed in (0, 0)
+[WARNING GPL-0001] p13432 toplevel port is not placed!
+       Replace will regard p13432 is placed in (0, 0)
+[WARNING GPL-0001] p13436 toplevel port is not placed!
+       Replace will regard p13436 is placed in (0, 0)
+[WARNING GPL-0001] p13440 toplevel port is not placed!
+       Replace will regard p13440 is placed in (0, 0)
+[WARNING GPL-0001] p13444 toplevel port is not placed!
+       Replace will regard p13444 is placed in (0, 0)
+[WARNING GPL-0001] p13448 toplevel port is not placed!
+       Replace will regard p13448 is placed in (0, 0)
+[WARNING GPL-0001] p13452 toplevel port is not placed!
+       Replace will regard p13452 is placed in (0, 0)
+[WARNING GPL-0001] p13456 toplevel port is not placed!
+       Replace will regard p13456 is placed in (0, 0)
+[WARNING GPL-0001] p13460 toplevel port is not placed!
+       Replace will regard p13460 is placed in (0, 0)
+[WARNING GPL-0001] p13464 toplevel port is not placed!
+       Replace will regard p13464 is placed in (0, 0)
+[WARNING GPL-0001] p13468 toplevel port is not placed!
+       Replace will regard p13468 is placed in (0, 0)
+[WARNING GPL-0001] p13472 toplevel port is not placed!
+       Replace will regard p13472 is placed in (0, 0)
+[WARNING GPL-0001] p13476 toplevel port is not placed!
+       Replace will regard p13476 is placed in (0, 0)
+[WARNING GPL-0001] p13480 toplevel port is not placed!
+       Replace will regard p13480 is placed in (0, 0)
+[WARNING GPL-0001] p13484 toplevel port is not placed!
+       Replace will regard p13484 is placed in (0, 0)
+[WARNING GPL-0001] p13488 toplevel port is not placed!
+       Replace will regard p13488 is placed in (0, 0)
+[WARNING GPL-0001] p13492 toplevel port is not placed!
+       Replace will regard p13492 is placed in (0, 0)
+[WARNING GPL-0001] p13496 toplevel port is not placed!
+       Replace will regard p13496 is placed in (0, 0)
+[WARNING GPL-0001] p13500 toplevel port is not placed!
+       Replace will regard p13500 is placed in (0, 0)
+[WARNING GPL-0001] p13504 toplevel port is not placed!
+       Replace will regard p13504 is placed in (0, 0)
+[WARNING GPL-0001] p13508 toplevel port is not placed!
+       Replace will regard p13508 is placed in (0, 0)
+[WARNING GPL-0001] p13512 toplevel port is not placed!
+       Replace will regard p13512 is placed in (0, 0)
+[WARNING GPL-0001] p13516 toplevel port is not placed!
+       Replace will regard p13516 is placed in (0, 0)
+[WARNING GPL-0001] p13520 toplevel port is not placed!
+       Replace will regard p13520 is placed in (0, 0)
+[WARNING GPL-0001] p13524 toplevel port is not placed!
+       Replace will regard p13524 is placed in (0, 0)
+[WARNING GPL-0001] p13528 toplevel port is not placed!
+       Replace will regard p13528 is placed in (0, 0)
+[WARNING GPL-0001] p13532 toplevel port is not placed!
+       Replace will regard p13532 is placed in (0, 0)
+[WARNING GPL-0001] p13536 toplevel port is not placed!
+       Replace will regard p13536 is placed in (0, 0)
+[WARNING GPL-0001] p13540 toplevel port is not placed!
+       Replace will regard p13540 is placed in (0, 0)
+[WARNING GPL-0001] p13544 toplevel port is not placed!
+       Replace will regard p13544 is placed in (0, 0)
+[WARNING GPL-0001] p13548 toplevel port is not placed!
+       Replace will regard p13548 is placed in (0, 0)
+[WARNING GPL-0001] p13552 toplevel port is not placed!
+       Replace will regard p13552 is placed in (0, 0)
+[WARNING GPL-0001] p13556 toplevel port is not placed!
+       Replace will regard p13556 is placed in (0, 0)
+[WARNING GPL-0001] p13560 toplevel port is not placed!
+       Replace will regard p13560 is placed in (0, 0)
+[WARNING GPL-0001] p13564 toplevel port is not placed!
+       Replace will regard p13564 is placed in (0, 0)
+[WARNING GPL-0001] p13568 toplevel port is not placed!
+       Replace will regard p13568 is placed in (0, 0)
+[WARNING GPL-0001] p13572 toplevel port is not placed!
+       Replace will regard p13572 is placed in (0, 0)
+[WARNING GPL-0001] p13576 toplevel port is not placed!
+       Replace will regard p13576 is placed in (0, 0)
+[WARNING GPL-0001] p13580 toplevel port is not placed!
+       Replace will regard p13580 is placed in (0, 0)
+[WARNING GPL-0001] p13584 toplevel port is not placed!
+       Replace will regard p13584 is placed in (0, 0)
+[WARNING GPL-0001] p13588 toplevel port is not placed!
+       Replace will regard p13588 is placed in (0, 0)
+[WARNING GPL-0001] p13592 toplevel port is not placed!
+       Replace will regard p13592 is placed in (0, 0)
+[WARNING GPL-0001] p13596 toplevel port is not placed!
+       Replace will regard p13596 is placed in (0, 0)
+[WARNING GPL-0001] p13600 toplevel port is not placed!
+       Replace will regard p13600 is placed in (0, 0)
+[WARNING GPL-0001] p13604 toplevel port is not placed!
+       Replace will regard p13604 is placed in (0, 0)
+[WARNING GPL-0001] p13608 toplevel port is not placed!
+       Replace will regard p13608 is placed in (0, 0)
+[WARNING GPL-0001] p13612 toplevel port is not placed!
+       Replace will regard p13612 is placed in (0, 0)
+[WARNING GPL-0001] p13616 toplevel port is not placed!
+       Replace will regard p13616 is placed in (0, 0)
+[WARNING GPL-0001] p13620 toplevel port is not placed!
+       Replace will regard p13620 is placed in (0, 0)
+[WARNING GPL-0001] p13624 toplevel port is not placed!
+       Replace will regard p13624 is placed in (0, 0)
+[WARNING GPL-0001] p13628 toplevel port is not placed!
+       Replace will regard p13628 is placed in (0, 0)
+[WARNING GPL-0001] p13632 toplevel port is not placed!
+       Replace will regard p13632 is placed in (0, 0)
+[WARNING GPL-0001] p13636 toplevel port is not placed!
+       Replace will regard p13636 is placed in (0, 0)
+[WARNING GPL-0001] p13640 toplevel port is not placed!
+       Replace will regard p13640 is placed in (0, 0)
+[WARNING GPL-0001] p13644 toplevel port is not placed!
+       Replace will regard p13644 is placed in (0, 0)
+[WARNING GPL-0001] p13648 toplevel port is not placed!
+       Replace will regard p13648 is placed in (0, 0)
+[WARNING GPL-0001] p13652 toplevel port is not placed!
+       Replace will regard p13652 is placed in (0, 0)
+[WARNING GPL-0001] p13656 toplevel port is not placed!
+       Replace will regard p13656 is placed in (0, 0)
+[WARNING GPL-0001] p13660 toplevel port is not placed!
+       Replace will regard p13660 is placed in (0, 0)
+[WARNING GPL-0001] p13664 toplevel port is not placed!
+       Replace will regard p13664 is placed in (0, 0)
+[WARNING GPL-0001] p13668 toplevel port is not placed!
+       Replace will regard p13668 is placed in (0, 0)
+[WARNING GPL-0001] p13672 toplevel port is not placed!
+       Replace will regard p13672 is placed in (0, 0)
+[WARNING GPL-0001] p13676 toplevel port is not placed!
+       Replace will regard p13676 is placed in (0, 0)
+[WARNING GPL-0001] p13680 toplevel port is not placed!
+       Replace will regard p13680 is placed in (0, 0)
+[WARNING GPL-0001] p13684 toplevel port is not placed!
+       Replace will regard p13684 is placed in (0, 0)
+[WARNING GPL-0001] p13688 toplevel port is not placed!
+       Replace will regard p13688 is placed in (0, 0)
+[WARNING GPL-0001] p13692 toplevel port is not placed!
+       Replace will regard p13692 is placed in (0, 0)
+[WARNING GPL-0001] p13696 toplevel port is not placed!
+       Replace will regard p13696 is placed in (0, 0)
+[WARNING GPL-0001] p13700 toplevel port is not placed!
+       Replace will regard p13700 is placed in (0, 0)
+[WARNING GPL-0001] p13704 toplevel port is not placed!
+       Replace will regard p13704 is placed in (0, 0)
+[WARNING GPL-0001] p13708 toplevel port is not placed!
+       Replace will regard p13708 is placed in (0, 0)
+[WARNING GPL-0001] p13712 toplevel port is not placed!
+       Replace will regard p13712 is placed in (0, 0)
+[WARNING GPL-0001] p13716 toplevel port is not placed!
+       Replace will regard p13716 is placed in (0, 0)
+[WARNING GPL-0001] p13720 toplevel port is not placed!
+       Replace will regard p13720 is placed in (0, 0)
+[WARNING GPL-0001] p13724 toplevel port is not placed!
+       Replace will regard p13724 is placed in (0, 0)
+[WARNING GPL-0001] p13728 toplevel port is not placed!
+       Replace will regard p13728 is placed in (0, 0)
+[WARNING GPL-0001] p13732 toplevel port is not placed!
+       Replace will regard p13732 is placed in (0, 0)
+[WARNING GPL-0001] p13736 toplevel port is not placed!
+       Replace will regard p13736 is placed in (0, 0)
+[WARNING GPL-0001] p13740 toplevel port is not placed!
+       Replace will regard p13740 is placed in (0, 0)
+[WARNING GPL-0001] p13744 toplevel port is not placed!
+       Replace will regard p13744 is placed in (0, 0)
+[WARNING GPL-0001] p13748 toplevel port is not placed!
+       Replace will regard p13748 is placed in (0, 0)
+[WARNING GPL-0001] p13752 toplevel port is not placed!
+       Replace will regard p13752 is placed in (0, 0)
+[WARNING GPL-0001] p13756 toplevel port is not placed!
+       Replace will regard p13756 is placed in (0, 0)
+[WARNING GPL-0001] p13760 toplevel port is not placed!
+       Replace will regard p13760 is placed in (0, 0)
+[WARNING GPL-0001] p13764 toplevel port is not placed!
+       Replace will regard p13764 is placed in (0, 0)
+[WARNING GPL-0001] p13768 toplevel port is not placed!
+       Replace will regard p13768 is placed in (0, 0)
+[WARNING GPL-0001] p13772 toplevel port is not placed!
+       Replace will regard p13772 is placed in (0, 0)
+[WARNING GPL-0001] p13776 toplevel port is not placed!
+       Replace will regard p13776 is placed in (0, 0)
+[WARNING GPL-0001] p13780 toplevel port is not placed!
+       Replace will regard p13780 is placed in (0, 0)
+[WARNING GPL-0001] p13784 toplevel port is not placed!
+       Replace will regard p13784 is placed in (0, 0)
+[WARNING GPL-0001] p13788 toplevel port is not placed!
+       Replace will regard p13788 is placed in (0, 0)
+[WARNING GPL-0001] p13792 toplevel port is not placed!
+       Replace will regard p13792 is placed in (0, 0)
+[WARNING GPL-0001] p13796 toplevel port is not placed!
+       Replace will regard p13796 is placed in (0, 0)
+[WARNING GPL-0001] p13800 toplevel port is not placed!
+       Replace will regard p13800 is placed in (0, 0)
+[WARNING GPL-0001] p13804 toplevel port is not placed!
+       Replace will regard p13804 is placed in (0, 0)
+[WARNING GPL-0001] p13808 toplevel port is not placed!
+       Replace will regard p13808 is placed in (0, 0)
+[WARNING GPL-0001] p13812 toplevel port is not placed!
+       Replace will regard p13812 is placed in (0, 0)
+[WARNING GPL-0001] p13816 toplevel port is not placed!
+       Replace will regard p13816 is placed in (0, 0)
+[WARNING GPL-0001] p13820 toplevel port is not placed!
+       Replace will regard p13820 is placed in (0, 0)
+[WARNING GPL-0001] p13824 toplevel port is not placed!
+       Replace will regard p13824 is placed in (0, 0)
+[WARNING GPL-0001] p13828 toplevel port is not placed!
+       Replace will regard p13828 is placed in (0, 0)
+[WARNING GPL-0001] p13832 toplevel port is not placed!
+       Replace will regard p13832 is placed in (0, 0)
+[WARNING GPL-0001] p13836 toplevel port is not placed!
+       Replace will regard p13836 is placed in (0, 0)
+[WARNING GPL-0001] p13840 toplevel port is not placed!
+       Replace will regard p13840 is placed in (0, 0)
+[WARNING GPL-0001] p13844 toplevel port is not placed!
+       Replace will regard p13844 is placed in (0, 0)
+[WARNING GPL-0001] p13848 toplevel port is not placed!
+       Replace will regard p13848 is placed in (0, 0)
+[WARNING GPL-0001] p13852 toplevel port is not placed!
+       Replace will regard p13852 is placed in (0, 0)
+[WARNING GPL-0001] p13856 toplevel port is not placed!
+       Replace will regard p13856 is placed in (0, 0)
+[WARNING GPL-0001] p13860 toplevel port is not placed!
+       Replace will regard p13860 is placed in (0, 0)
+[WARNING GPL-0001] p13864 toplevel port is not placed!
+       Replace will regard p13864 is placed in (0, 0)
+[WARNING GPL-0001] p13868 toplevel port is not placed!
+       Replace will regard p13868 is placed in (0, 0)
+[WARNING GPL-0001] p13872 toplevel port is not placed!
+       Replace will regard p13872 is placed in (0, 0)
+[WARNING GPL-0001] p13876 toplevel port is not placed!
+       Replace will regard p13876 is placed in (0, 0)
+[WARNING GPL-0001] p13880 toplevel port is not placed!
+       Replace will regard p13880 is placed in (0, 0)
+[WARNING GPL-0001] p13884 toplevel port is not placed!
+       Replace will regard p13884 is placed in (0, 0)
+[WARNING GPL-0001] p13888 toplevel port is not placed!
+       Replace will regard p13888 is placed in (0, 0)
+[WARNING GPL-0001] p13892 toplevel port is not placed!
+       Replace will regard p13892 is placed in (0, 0)
+[WARNING GPL-0001] p13896 toplevel port is not placed!
+       Replace will regard p13896 is placed in (0, 0)
+[WARNING GPL-0001] p13900 toplevel port is not placed!
+       Replace will regard p13900 is placed in (0, 0)
+[WARNING GPL-0001] p13904 toplevel port is not placed!
+       Replace will regard p13904 is placed in (0, 0)
+[WARNING GPL-0001] p13908 toplevel port is not placed!
+       Replace will regard p13908 is placed in (0, 0)
+[WARNING GPL-0001] p13912 toplevel port is not placed!
+       Replace will regard p13912 is placed in (0, 0)
+[WARNING GPL-0001] p13916 toplevel port is not placed!
+       Replace will regard p13916 is placed in (0, 0)
+[WARNING GPL-0001] p13920 toplevel port is not placed!
+       Replace will regard p13920 is placed in (0, 0)
+[WARNING GPL-0001] p13924 toplevel port is not placed!
+       Replace will regard p13924 is placed in (0, 0)
+[WARNING GPL-0001] p13928 toplevel port is not placed!
+       Replace will regard p13928 is placed in (0, 0)
+[WARNING GPL-0001] p13932 toplevel port is not placed!
+       Replace will regard p13932 is placed in (0, 0)
+[WARNING GPL-0001] p13936 toplevel port is not placed!
+       Replace will regard p13936 is placed in (0, 0)
+[WARNING GPL-0001] p13940 toplevel port is not placed!
+       Replace will regard p13940 is placed in (0, 0)
+[WARNING GPL-0001] p13944 toplevel port is not placed!
+       Replace will regard p13944 is placed in (0, 0)
+[WARNING GPL-0001] p13948 toplevel port is not placed!
+       Replace will regard p13948 is placed in (0, 0)
+[WARNING GPL-0001] p13952 toplevel port is not placed!
+       Replace will regard p13952 is placed in (0, 0)
+[WARNING GPL-0001] p13956 toplevel port is not placed!
+       Replace will regard p13956 is placed in (0, 0)
+[WARNING GPL-0001] p13960 toplevel port is not placed!
+       Replace will regard p13960 is placed in (0, 0)
+[WARNING GPL-0001] p13964 toplevel port is not placed!
+       Replace will regard p13964 is placed in (0, 0)
+[WARNING GPL-0001] message limit (1000) reached. This message will no longer print.
+[INFO GPL-0006] Number of instances:           1206104
+[INFO GPL-0007] Movable instances:             1206104
+[INFO GPL-0008] Fixed instances:                     0
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                1215710
+[INFO GPL-0011] Number of pins:                3767494
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 8543.160 3131.010 ) um
+[INFO GPL-0013] Core BBox: (  6.840  3.420 ) ( 8543.160 3131.010 ) um
+[INFO GPL-0016] Core area:                  26698109.069 um^2
+[INFO GPL-0017] Fixed instances area:            0.000 um^2
+[INFO GPL-0018] Movable instances area:     20527792.162 um^2
+[INFO GPL-0019] Utilization:                    76.889 %
+[INFO GPL-0020] Standard cells area:        6379937.188 um^2
+[INFO GPL-0021] Large instances area:       14147854.974 um^2
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.04266301 HPWL: 94224890820
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00661942 HPWL: 95980328600
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00242355 HPWL: 96057049654
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00178785 HPWL: 96155142614
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00137759 HPWL: 96209962284
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00135023 HPWL: 96282892942
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00113957 HPWL: 96314070416
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00132933 HPWL: 96386407490
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00070815 HPWL: 96434343468
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00045097 HPWL: 96477701064
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00052060 HPWL: 96476806066
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00043157 HPWL: 96514978258
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00055637 HPWL: 96531499855
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00049519 HPWL: 96585488242
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00045580 HPWL: 96590522694
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00048476 HPWL: 96623444521
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00048560 HPWL: 96637910874
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00441358 HPWL: 96692404662
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00062847 HPWL: 97106350866
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00051516 HPWL: 96946256908
+[INFO GPL-0023] Placement target density:       0.7000
+[INFO GPL-0024] Movable insts average area:     17.020 um^2
+[INFO GPL-0025] Ideal bin area:                 24.314 um^2
+[INFO GPL-0026] Ideal bin count:               1098047
+[INFO GPL-0027] Total bin area:             26698109.069 um^2
+[INFO GPL-0028] Bin count (X, Y):        1024 ,    512
+[INFO GPL-0029] Bin size (W * H):       8.336 *  6.109 um
+[INFO GPL-0030] Number of bins:                 524288
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        1 |   0.9321 |  8.747284e+10 |   +0.00% |  1.25e-17 |      
+       10 |   0.9316 |  9.035225e+10 |   +3.29% |  1.04e-17 |      
+       20 |   0.9295 |  9.568677e+10 |   +5.90% |  9.15e-18 |      
+       30 |   0.9260 |  9.683775e+10 |   +1.20% |  1.29e-17 |      
+       40 |   0.9195 |  9.889787e+10 |   +2.13% |  1.69e-17 |      
+       50 |   0.9157 |  1.006325e+11 |   +1.75% |  2.28e-17 |      
+       60 |   0.9123 |  1.019524e+11 |   +1.31% |  3.19e-17 |      
+       70 |   0.9090 |  1.027915e+11 |   +0.82% |  4.73e-17 |      
+       80 |   0.9068 |  1.030740e+11 |   +0.27% |  7.39e-17 |      
+       90 |   0.9052 |  1.025338e+11 |   -0.52% |  1.20e-16 |      
+      100 |   0.9033 |  1.027840e+11 |   +0.24% |  1.88e-16 |      
+      110 |   0.9022 |  1.033993e+11 |   +0.60% |  2.86e-16 |      
+      120 |   0.9014 |  1.038812e+11 |   +0.47% |  4.41e-16 |      
+      130 |   0.9011 |  1.041458e+11 |   +0.25% |  6.96e-16 |      
+      140 |   0.8997 |  1.041373e+11 |   -0.01% |  1.13e-15 |      
+      150 |   0.8979 |  1.038074e+11 |   -0.32% |  1.83e-15 |      
+      160 |   0.8963 |  1.033917e+11 |   -0.40% |  2.99e-15 |      
+      170 |   0.8947 |  1.029248e+11 |   -0.45% |  4.87e-15 |      
+      180 |   0.8927 |  1.022817e+11 |   -0.62% |  7.93e-15 |      
+      190 |   0.8901 |  1.014834e+11 |   -0.78% |  1.29e-14 |      
+      200 |   0.8846 |  1.004271e+11 |   -1.04% |  2.10e-14 |      
+      210 |   0.8733 |  9.914611e+10 |   -1.28% |  3.43e-14 |      
+      220 |   0.8586 |  9.761048e+10 |   -1.55% |  5.58e-14 |      
+      230 |   0.8495 |  9.605868e+10 |   -1.59% |  9.09e-14 |      
+      240 |   0.8418 |  9.492929e+10 |   -1.18% |  1.48e-13 |      
+      250 |   0.8306 |  9.468999e+10 |   -0.25% |  2.40e-13 |      
+      260 |   0.8143 |  9.577992e+10 |   +1.15% |  3.52e-13 |      
+      270 |   0.7929 |  9.804007e+10 |   +2.36% |  4.52e-13 |      
+      280 |   0.7666 |  1.007660e+11 |   +2.78% |  5.50e-13 |      
+      290 |   0.7476 |  1.035778e+11 |   +2.79% |  6.59e-13 |      
+      300 |   0.7353 |  1.066634e+11 |   +2.98% |  7.77e-13 |      
+      310 |   0.7126 |  1.096417e+11 |   +2.79% |  9.18e-13 |      
+      320 |   0.6856 |  1.126140e+11 |   +2.71% |  1.07e-12 |      
+      330 |   0.6611 |  1.159612e+11 |   +2.97% |  1.22e-12 |      
+      340 |   0.6352 |  1.195776e+11 |   +3.12% |  1.35e-12 |      
+      350 |   0.6158 |  1.235213e+11 |   +3.30% |  1.44e-12 |      
+      360 |   0.6119 |  1.274094e+11 |   +3.15% |  1.53e-12 |      
+      370 |   0.6108 |  1.312613e+11 |   +3.02% |  1.62e-12 |      
+      380 |   0.6035 |  1.349738e+11 |   +2.83% |  1.77e-12 |      
+[INFO GPL-0088] Routability snapshot saved at iter = 383
+      390 |   0.5920 |  1.381908e+11 |   +2.38% |  2.02e-12 |      
+      400 |   0.5835 |  1.408240e+11 |   +1.91% |  2.44e-12 |      
+      410 |   0.5719 |  1.434391e+11 |   +1.86% |  2.95e-12 |      
+      420 |   0.5574 |  1.455195e+11 |   +1.45% |  3.74e-12 |      
+      430 |   0.5397 |  1.476306e+11 |   +1.45% |  4.82e-12 |      
+      440 |   0.5137 |  1.500080e+11 |   +1.61% |  6.24e-12 |      
+      450 |   0.4918 |  1.520048e+11 |   +1.33% |  7.82e-12 |      
+      460 |   0.4834 |  1.532046e+11 |   +0.79% |  1.02e-11 |      
+      470 |   0.4693 |  1.557144e+11 |   +1.64% |  1.29e-11 |      
+      480 |   0.4464 |  1.580776e+11 |   +1.52% |  1.61e-11 |      
+      490 |   0.4290 |  1.606566e+11 |   +1.63% |  2.01e-11 |      
+      500 |   0.4106 |  1.636119e+11 |   +1.84% |  2.40e-11 |      
+      510 |   0.4024 |  1.657115e+11 |   +1.28% |  3.03e-11 |      
+      520 |   0.3882 |  1.689016e+11 |   +1.93% |  3.51e-11 |      
+      530 |   0.3843 |  1.702834e+11 |   +0.82% |  4.81e-11 |      
+      540 |   0.3624 |  1.730136e+11 |   +1.60% |  5.79e-11 |      
+      550 |   0.3570 |  1.742937e+11 |   +0.74% |  8.30e-11 |      
+      560 |   0.3426 |  1.769289e+11 |   +1.51% |  1.03e-10 |      
+      570 |   0.3301 |  1.794766e+11 |   +1.44% |  1.20e-10 |      
+      580 |   0.3192 |  1.816381e+11 |   +1.20% |  1.45e-10 |      
+      590 |   0.3085 |  1.831345e+11 |   +0.82% |  1.85e-10 |      
+[INFO GPL-0040] Routability iteration: 1
+[ERROR GRT-0042] Pin FE_RN_ does not have geometries in a valid routing layer.
+Error: superblue1_pnr.tcl, 67 GRT-0042
+[?2004hopenroad> exit
+[?2004l
