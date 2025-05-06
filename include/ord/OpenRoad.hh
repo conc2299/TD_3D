@@ -114,6 +114,10 @@ namespace gpl3d{
 class Placer3d;
 }
 
+namespace par3d{
+class Partitioner3d;
+}
+
 namespace ord {
 
 using std::string;
@@ -161,6 +165,7 @@ class OpenRoad
   stt::SteinerTreeBuilder* getSteinerTreeBuilder() { return stt_builder_; }
   dft::Dft* getDft() { return dft_; }
   gpl3d::Placer3d* getPlacer3d() { return placer3d_; }
+  par3d::Partitioner3d* getPartitioner3d() { return partitioner3d_; }
 
   // Return the bounding box of the db rows.
   odb::Rect getCore();
@@ -252,6 +257,7 @@ class OpenRoad
   stt::SteinerTreeBuilder* stt_builder_ = nullptr;
   dft::Dft* dft_ = nullptr;
   gpl3d::Placer3d* placer3d_ = nullptr;
+  par3d::Partitioner3d* partitioner3d_ = nullptr;
 
   int threads_ = 1;
 

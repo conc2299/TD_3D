@@ -1,5 +1,4 @@
 #include "gpl3d/Placer3d.h"
-#include "tryodb.h"
 
 #include "utl/Logger.h"
 
@@ -28,7 +27,6 @@ void Placer3d::run(int argc)
         "total arg count {}",
         argc
     );
-    odb_show(db_,sta_,logger_);
 }
 
 }

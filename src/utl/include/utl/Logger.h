@@ -54,6 +54,7 @@ class Progress;
   X(ORD)                \
   X(PAD)                \
   X(PAR)                \
+  X(PAR3D)              \
   X(PDN)                \
   X(PPL)                \
   X(PSM)                \

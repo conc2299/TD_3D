@@ -57,6 +57,7 @@
 #include "utl/ScopedTemporaryFile.h"
 #include "utl/decode.h"
 #include "gpl3d/MakePlacer3d.h"
+#include "par3d/MakePartitioner3d.h"
 
 namespace ord {
 extern const char* ord_tcl_inits[];
@@ -177,6 +178,7 @@ void OpenRoad::init(Tcl_Interp* tcl_interp,
   stt_builder_ = makeSteinerTreeBuilder();
   dft_ = dft::makeDft();
   placer3d_ = makePlacer3d();
+  partitioner3d_ = makePartitioner3d();
 
   // Init components.
   Ord_Init(tcl_interp);
@@ -212,6 +214,7 @@ void OpenRoad::init(Tcl_Interp* tcl_interp,
   initSteinerTreeBuilder(this);
   dft::initDft(this);
   initPlacer3d(this);
+  initPartitioner3d(this);
 
   // Import exported commands to global namespace.
   Tcl_Eval(tcl_interp, "sta::define_sta_cmds");

@@ -4,7 +4,6 @@
 include("openroad")
 
 add_library(gpl3d_lib
-    src/tryodb.cpp
     src/placer3d.cpp
 )
 

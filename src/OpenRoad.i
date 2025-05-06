@@ -192,6 +192,13 @@ getPlacer3d()
   return openroad->getPlacer3d();
 }
 
+par3d::Partitioner3d*
+getPartitioner3d()
+{
+  OpenRoad *openroad = getOpenRoad();
+  return openroad->getPartitioner3d();
+}
+
 } //namespace ord
 
 namespace sta {
