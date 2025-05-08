@@ -65,4 +65,29 @@ void odb_info(odb::dbDatabase* db, utl::Logger* logger) {
     }
 }
 
+void total_area(odb::dbDatabase* db, utl::Logger* logger) {
+    odb::dbBlock* block = db->getChip()->getBlock();
+    odb::dbSet<odb::dbInst> insts = block->getInsts();
+    odb::dbSet<odb::dbBTerm> bterms = block->getBTerms();
+
+    double total_inst_area = 0.0;
+    double total_bterm_area = 0.0;
+    for(auto inst : insts) {
+        double dx = db->getChip()->getBlock()->dbuToMicrons(inst->getBBox()->getDX());
+        double dy = db->getChip()->getBlock()->dbuToMicrons(inst->getBBox()->getDY());
+        double area = dx * dy;
+        total_inst_area += area;
+    }
+    for(auto bterm : bterms) {
+        double area = db->getChip()->getBlock()->dbuAreaToMicrons(bterm->getBBox().area());
+        total_bterm_area += area;
+    }
+
+    logger->report("=====Total Area:=====");
+    logger->report("Total number of instances: {}", insts.size());
+    logger->report("Total instance area: {} um^2", total_inst_area);
+    logger->report("Total number of bterms: {}", bterms.size());
+    logger->report("Total bterm area: {} um^2", total_bterm_area);
+}
+
 

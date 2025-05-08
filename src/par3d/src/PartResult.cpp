@@ -85,4 +85,9 @@ int PartResult::max_netspan_id() const
     return max_netspan_id_;
 }
 
+int PartResult::get_tsv_num() const
+{
+    return max_netspan_id_ - min_netspan_id_;
+}
+
 }

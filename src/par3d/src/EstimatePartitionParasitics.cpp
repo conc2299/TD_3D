@@ -71,13 +71,14 @@ void Partitioner3d::estimate_partitioned_parasitics(SpefWriter* spef_writer)
     odb::dbSet<odb::dbNet> nets = block->getNets();
 
     ArcDelayCalc* arc_delay_calc = sta_->arcDelayCalc();
-    logger_->report("arc delay calc method : {}", arc_delay_calc->name());
     PartResult part_result(logger_);
     part_result.set_minmax_id(0, num_parts_ - 1);
+    int tsv_num = 0;
     for(odb::dbNet* net : nets) {
         // logger_->info(PAR3D, 1, "Net name: {}", net->getName());
         part_result.handle_net(db_network_, net);
         Net* sta_net = db_network_->dbToSta(net);
+        tsv_num += part_result.get_tsv_num();
         // logger_->info(PAR3D, 1, "\tmin_id: {}, max_id: {}", min_id, max_id);
         for(Corner* corner : *sta_->corners()) {
             const ParasiticAnalysisPt* parasitics_ap
@@ -87,11 +88,12 @@ void Partitioner3d::estimate_partitioned_parasitics(SpefWriter* spef_writer)
             add_net_parasitic(parasitic, sta_net, &part_result);
             arc_delay_calc->reduceParasitic(
                 parasitic, sta_net, sta_->cmdCorner(), sta::MinMaxAll::all());
-            if (spef_writer) {
+            if (spef_writer && part_result.get_tsv_num() > 0) {
                 spef_writer->writeNet(corner, sta_net, parasitic);
             }
         }
     }
+    logger_->info(PAR3D, 1, "Total TSV num: {}", tsv_num);
 }
 
 }

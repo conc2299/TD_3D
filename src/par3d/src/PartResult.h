@@ -31,6 +31,7 @@ public:
     const std::vector<sta::Pin*>& get_pins(int layer_id) const;
     int min_netspan_id() const;
     int max_netspan_id() const;
+    int get_tsv_num() const;
     
 private:
     utl::Logger* logger_;

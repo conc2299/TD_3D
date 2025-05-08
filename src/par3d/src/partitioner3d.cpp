@@ -27,47 +27,45 @@ void Partitioner3d::init(
     logger_ = logger;
 }
 
-void Partitioner3d::run(const char* solution_path, const char* spef_path)
+void Partitioner3d::run(
+    int num_parts,
+    float balance_constraint,
+    unsigned int seed,
+    unsigned int top_n,
+    const char* solution_path
+)
 {
-    /*
-        run triton part
-        and write the solution to the file
-    */
-    num_parts_ = 2;
-    partition_tritonpart(
-        num_parts_,  // num_parts_arg
-        2.0,  // balance_constraint_arg
-        42,  // seed_arg
-        1000,  // top_n_arg
-        true,  // timing_aware_flag_arg
-        0.0f,  // extra_delay
-        true,  // guardband_flag_arg
-        solution_path
-    );
     // sta_engine->ensureGraph();
-    sta_->setThreadCount(6);
-    // sta_->setArcDelayCalc("dmp_ceff_elmore");
-    sta_->setArcDelayCalc("lumped_cap");
     // sta_->setDebugLevel("parasitic_reduce",2);
-    
+    sta_->setThreadCount(7);
     auto delay_calc = sta_->arcDelayCalc()->name();
     logger_->report(
         "Arc delay calc method : {}",
         delay_calc
     );
     /*
-        print information about db & sta
+        run triton part
+        and write the solution to the file
     */
-    // odb_info(db_, logger_);
-    // show_part_layer(db_, logger_);
-    // logger_->report("==========Before Parasitic Estimation==========");
-    // report_sta_units(sta_, logger_);
-    // report_parasitic_annotation(sta_);
-
-    // run timing analysis
-    timing_analysis(false);
+    num_parts_ = num_parts;
+    total_area(db_, logger_);
+    partition_tritonpart(
+        num_parts_,  // num_parts_arg
+        balance_constraint,  // balance_constraint_arg
+        seed,  // seed_arg
+        top_n,  // top_n_arg
+        true,  // timing_aware_flag_arg
+        0.0f,  // extra_delay
+        true,  // guardband_flag_arg
+        solution_path
+    );
     
-    // write the spef file
+}
+
+void Partitioner3d::extract_parasitics(
+    const char* spef_path
+)
+{
     std::map<sta::Corner*, std::ostream*> corner_map;
     std::ofstream spef_file(spef_path);
     corner_map[sta_->cmdCorner()] = &spef_file;
@@ -81,16 +79,22 @@ void Partitioner3d::run(const char* solution_path, const char* spef_path)
         corner_map
     );
     estimate_partitioned_parasitics(&spef_writer);
-    logger_->report("==========After Parasitic Estimation==========");
-    report_sta_units(sta_, logger_);
-    // report_parasitic_annotation(sta_);
-    timing_analysis(true);
+}
 
-    // logger_->report("==========Remove Parasitic Estimation==========");
-    // sta_->deleteParasitics();
+void Partitioner3d::report_timing(
+    const char* report_file
+)
+{
+    /*
+        print information about db & sta
+    */
+    // odb_info(db_, logger_);
+    // show_part_layer(db_, logger_);
+    // logger_->report("==========Before Parasitic Estimation==========");
     // report_sta_units(sta_, logger_);
     // report_parasitic_annotation(sta_);
-    // timing_analysis(true);
+    // run timing analysis
+    timing_analysis(false);
 }
 
 void Partitioner3d::partition_tritonpart(

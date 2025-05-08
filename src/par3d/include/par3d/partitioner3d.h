@@ -32,7 +32,18 @@ public:
               utl::Logger* logger);
 
     void estimate_partitioned_parasitics(sta::SpefWriter* spef_writer = nullptr);
-    void run(const char* solution_path, const char* spef_path);
+    void run(int num_parts,
+            float balance_constraint,
+            unsigned int seed,
+            unsigned int top_n,
+            const char* solution_path
+        );
+    void extract_parasitics(
+        const char* spef_path
+    );
+    void report_timing(
+        const char* report_file
+    );
 
 private:
     void add_net_parasitic(
