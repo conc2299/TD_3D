@@ -4,6 +4,7 @@ sta::define_cmd_args "partitioner3d_run" {
     -seed {seed 42} \
     -top_n {top_n 10000} \
     -solution_file {solution_file ""}\
+    -timing_aware_flag {timing_aware_flag 0} \
 }
 proc partitioner3d_run {args} {
     sta::parse_key_args "placer3d_run" args \
@@ -12,6 +13,7 @@ proc partitioner3d_run {args} {
         -seed \
         -top_n \
         -solution_file \
+        -timing_aware_flag \
         } \
     flags {}
 
@@ -20,13 +22,15 @@ proc partitioner3d_run {args} {
     set seed $keys(-seed)
     set top_n $keys(-top_n)
     set solution_file $keys(-solution_file)
+    set timing_aware_flag $keys(-timing_aware_flag)
 
     par3d::partitioner3d_run \
         $num_parts \
         $balance_constraint \
         $seed \
         $top_n \
-        $solution_file
+        $solution_file \
+        $timing_aware_flag
 }
 
 sta::define_cmd_args "partitioner3d_extract_parasitics" {
@@ -50,12 +54,25 @@ sta::define_cmd_args "partitioner3d_report_timing" {
 }
 proc partitioner3d_report_timing {args} {
     sta::parse_key_args "partitoner3d_report_timing" args \
-    keys {-report_file \
+    keys {-num_path \
         } \
     flags {}
 
-    set report_file $keys(-report_file)
+    set report_file $keys(-num_path)
 
     par3d::partitioner3d_report_timing \
         $report_file
+}
+
+sta::define_cmd_args "partitioner3d_clear_parasitics" {
+}
+proc partitioner3d_clear_parasitics {args} {
+
+    par3d::partitioner3d_clear_parasitics \
+}
+
+sta::define_cmd_args "partitioner3d_print_module_hierarchy" {
+}
+proc partitioner3d_print_module_hierarchy {args} {
+    par3d::partitioner3d_print_module_hierarchy 
 }

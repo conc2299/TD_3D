@@ -14,7 +14,7 @@
 using namespace par3d;
 
 void Partitioner3d::timing_analysis(
-    bool after_placement_arg
+    unsigned int num_path
 )
 {
     sta_->searchPreamble();
@@ -26,7 +26,7 @@ void Partitioner3d::timing_analysis(
     // bool get_max = true;  // max for setup check, min for hold check
     // Timing paths are grouped into path groups according to the clock
     // associated with the endpoint of the path, for example, path group for clk
-    int group_count = 100;
+    int group_count = num_path;
     int endpoint_count = 1;  // The number of paths to report for each endpoint.
 
     // // sta_->setAnalysisType(sta::AnalysisType::bc_wc);
@@ -53,19 +53,17 @@ void Partitioner3d::timing_analysis(
         false
     );
     sta_->setReportPathFormat(sta::ReportPathFormat::full_clock_expanded);
-    auto worst_path = path_ends[0];
-    sta_->reportPathEnd(worst_path);
-    // for (auto path_end : path_ends) {
-    //     // sta_->reportPathEnd(path_end);
-    //     // logger->report("Path end name: {}", path->name(sta_engine));
-    //     // logger->report("Path arrival time: {}", path->arrival(sta_engine));
-    //     // logger->report("Path required: {}", path_end->requiredTime(sta_engine));
-    //     // logger->report("Path slew: {}", path->slew(sta_engine));
-    //     // logger->report("Path slack: {}", path_end->slack(sta_engine));
-    //     // logger->report("Path clockname: {}", path->clock(sta_engine)->name());
-    //     // logger->report("");
-    //     // logger->report("Path end delay: {}", path_end->pathDelay()->delay());
-    // }
+    for (auto path_end : path_ends) {
+        sta_->reportPathEnd(path_end);
+        // logger->report("Path end name: {}", path->name(sta_engine));
+        // logger->report("Path arrival time: {}", path->arrival(sta_engine));
+        // logger->report("Path required: {}", path_end->requiredTime(sta_engine));
+        // logger->report("Path slew: {}", path->slew(sta_engine));
+        // logger->report("Path slack: {}", path_end->slack(sta_engine));
+        // logger->report("Path clockname: {}", path->clock(sta_engine)->name());
+        // logger->report("");
+        // logger->report("Path end delay: {}", path_end->pathDelay()->delay());
+    }
     auto wns = sta_->worstSlack(sta::MinMax::max());
     auto tns = sta_->totalNegativeSlack(sta::MinMax::max());
     logger_->report("Worst negative slack: {}",sta_->units()->find("time")->asString(wns));

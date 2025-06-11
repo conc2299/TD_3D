@@ -18,7 +18,8 @@ void partitioner3d_run(
     float balance_constraint,
     unsigned int seed,
     unsigned int top_n,
-    const char* solution_path
+    const char* solution_path,
+    bool timing_aware_flag
 )
 {
     getPartitioner3d()->run(
@@ -26,7 +27,8 @@ void partitioner3d_run(
         balance_constraint,
         seed,
         top_n,
-        solution_path
+        solution_path,
+        timing_aware_flag
     );
 }
 
@@ -38,10 +40,20 @@ void partitioner3d_extract_parasitics(
 }
 
 void partitioner3d_report_timing(
-    const char* report_file
+    unsigned int num_path
 )
 {
-    getPartitioner3d()->report_timing(report_file);
+    getPartitioner3d()->report_timing(num_path);
+}
+
+void partitioner3d_clear_parasitics()
+{
+    getPartitioner3d()->clear_parasitics();
+}
+
+void partitioner3d_print_module_hierarchy()
+{
+    getPartitioner3d()->print_module_hierarchy();
 }
 
 %}

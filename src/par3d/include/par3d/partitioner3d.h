@@ -36,14 +36,22 @@ public:
             float balance_constraint,
             unsigned int seed,
             unsigned int top_n,
-            const char* solution_path
+            const char* solution_path,
+            bool timing_aware_flag
         );
+    // fix the ports to the top of design
+    void generate_fixed_file(
+        const char* fixed_file,
+        const int port_fix_layer
+    );
     void extract_parasitics(
         const char* spef_path
     );
     void report_timing(
-        const char* report_file
+        unsigned int num_path
     );
+    void clear_parasitics();
+    void print_module_hierarchy();
 
 private:
     void add_net_parasitic(
@@ -54,6 +62,7 @@ private:
     void partition_tritonpart(
         unsigned int num_parts_arg,
         float balance_constraint_arg,
+        const char* fixed_file_arg,
         unsigned int seed_arg,
         unsigned int top_n_arg,
         bool timing_aware_flag_arg,
@@ -63,7 +72,7 @@ private:
     );
 
     void timing_analysis(
-        bool after_placement_arg
+        unsigned int num_path
     );
 
     void place();

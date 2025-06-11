@@ -32,7 +32,8 @@ void Partitioner3d::run(
     float balance_constraint,
     unsigned int seed,
     unsigned int top_n,
-    const char* solution_path
+    const char* solution_path,
+    bool timing_aware_flag
 )
 {
     // sta_engine->ensureGraph();
@@ -49,12 +50,17 @@ void Partitioner3d::run(
     */
     num_parts_ = num_parts;
     total_area(db_, logger_);
+    std::string solution_file(solution_path);
+    std::string fixed_path = solution_file.substr(0, solution_file.find_last_of("."));
+    fixed_path += ".fixed";
+    generate_fixed_file(fixed_path.c_str(), num_parts - 1);
     partition_tritonpart(
         num_parts_,  // num_parts_arg
         balance_constraint,  // balance_constraint_arg
+        fixed_path.c_str(),  // fixed_file_arg
         seed,  // seed_arg
         top_n,  // top_n_arg
-        true,  // timing_aware_flag_arg
+        timing_aware_flag,  // timing_aware_flag_arg
         0.0f,  // extra_delay
         true,  // guardband_flag_arg
         solution_path
@@ -82,7 +88,7 @@ void Partitioner3d::extract_parasitics(
 }
 
 void Partitioner3d::report_timing(
-    const char* report_file
+    unsigned int num_path
 )
 {
     /*
@@ -94,12 +100,19 @@ void Partitioner3d::report_timing(
     // report_sta_units(sta_, logger_);
     // report_parasitic_annotation(sta_);
     // run timing analysis
-    timing_analysis(false);
+    timing_analysis(num_path);
+}
+
+void Partitioner3d::clear_parasitics()
+{
+    // clear parasitics
+    sta_->deleteParasitics();
 }
 
 void Partitioner3d::partition_tritonpart(
     unsigned int num_parts_arg,
     float balance_constraint_arg,
+    const char* fixed_file_arg,
     unsigned int seed_arg,
     unsigned int top_n_arg,
     bool timing_aware_flag_arg,
@@ -124,7 +137,7 @@ void Partitioner3d::partition_tritonpart(
         0.0f,  //fence_ly_arg
         0.0f, // fence_ux_arg
         0.0f,   //fence_uy_arg
-        "",  // fixed_file_arg
+        fixed_file_arg,  // fixed_file_arg
         "",  // community_file_arg
         "",  // group_file_arg
         solution_filename_arg,  // solution_filename_arg
@@ -143,7 +156,7 @@ void Partitioner3d::partition_tritonpart(
         1.5, //coarsening_ratio
         30, //max_coarsen_iters
         0.0001 , //adj_diff_ratio
-        0, //min_num_vertices_each_part
+        4, //min_num_vertices_each_part(which means the coarest hypergraph has at least 4 vertices for each part)
         100, //num_initial_solutions
         10, //num_best_initial_solutions
         100, //refiner_iters
